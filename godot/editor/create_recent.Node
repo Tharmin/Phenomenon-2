@@ -1,0 +1,10 @@
+Node
+AnimationPlayer
+AnimationTree
+SpotLight3D
+Sprite2D
+MeshInstance3D
+DirectionalLight3D
+OmniLight3D
+Timer
+Node3D

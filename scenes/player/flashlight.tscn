@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://du16be37nj4ap"]
+
+[ext_resource type="Script" path="res://scenes/player/BasicFlashlight.gd" id="1_32bvm"]
+[ext_resource type="Script" path="res://scenes/player/Glowstick.gd" id="2_r7fk7"]
+
+[node name="Flashlight" type="Node3D"]
+
+[node name="BasicFlashlight" type="SpotLight3D" parent="."]
+unique_name_in_owner = true
+light_color = Color(1, 0.653804, 0.342767, 1)
+spot_range = 10.0
+spot_angle = 20.0
+script = ExtResource("1_32bvm")
+metadata/use_color_temperature = true
+metadata/color_temperature = 2700
+metadata/color_filter = Color(1, 1, 1, 0)
+
+[node name="BasicFlashlightModel" type="MeshInstance3D" parent="BasicFlashlight"]
+
+[node name="PulseDuration" type="Timer" parent="BasicFlashlight"]
+unique_name_in_owner = true
+
+[node name="PulseTimer" type="Timer" parent="BasicFlashlight"]
+unique_name_in_owner = true
+
+[node name="Glowstick" type="OmniLight3D" parent="."]
+unique_name_in_owner = true
+light_color = Color(0, 1, 0.764706, 1)
+script = ExtResource("2_r7fk7")
+metadata/use_color_temperature = false
+metadata/color_temperature = 6500
+metadata/color_filter = Color(0, 1, 0.764706, 1)
+
+[node name="GlowstickModel" type="MeshInstance3D" parent="Glowstick"]
+
+[node name="ChestMountedFlashlight" type="SpotLight3D" parent="."]
+unique_name_in_owner = true
+metadata/use_color_temperature = true
+metadata/color_temperature = 6500
+metadata/color_filter = Color(1, 1, 1, 0)

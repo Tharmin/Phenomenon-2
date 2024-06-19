@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnboks8f0pe8o"]
+
+[ext_resource type="PackedScene" uid="uid://b43e8qggl4b5e" path="res://scenes/items/resources/BaseConeLight.tscn" id="1_k4m6d"]
+[ext_resource type="Script" path="res://scenes/items/resources/BaseItem.gd" id="1_ywy6f"]
+
+[node name="BadFlashlight" type="Node"]
+script = ExtResource("1_ywy6f")
+item_id = "incandescent_flashlight"
+
+[node name="BaseConeLight" parent="." instance=ExtResource("1_k4m6d")]
