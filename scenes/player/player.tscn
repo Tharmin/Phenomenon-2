@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://cp6elqppo7pv2"]
+[gd_scene load_steps=7 format=3 uid="uid://cp6elqppo7pv2"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_67hrl"]
 [ext_resource type="Script" path="res://scenes/player/Look Script.gd" id="2_a81jl"]
 [ext_resource type="Script" path="res://scenes/player/InventoryManager.gd" id="2_dfnub"]
+[ext_resource type="Script" path="res://scenes/player/Label.gd" id="4_6vyh6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sissm"]
 radius = 0.3
@@ -34,3 +35,29 @@ script = ExtResource("2_dfnub")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
 mesh = SubResource("CapsuleMesh_rila0")
 skeleton = NodePath("")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -70.5
+offset_top = -11.5
+offset_right = 70.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Press ESC to move"
+horizontal_alignment = 1
+script = ExtResource("4_6vyh6")
