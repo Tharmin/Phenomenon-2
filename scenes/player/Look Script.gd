@@ -4,5 +4,5 @@ extends Node3D
 
 func _input(event):
 	if event is InputEventMouseMotion:
-		rotate_y(-event.relative.x * sensitivity)
-		$Neck.rotation_degrees.x = clamp($Neck.rotation_degrees.x - rad_to_deg(event.relative.y * sensitivity), -90, 90)
+		get_parent().rotate_y(-event.relative.x * sensitivity)
+		rotation_degrees.x = clamp(rotation_degrees.x - rad_to_deg(event.relative.y * sensitivity), -90, 90)
