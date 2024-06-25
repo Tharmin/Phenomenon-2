@@ -1,2 +1,8 @@
+res://scenes/player/player.tscn
+res://scenes/player/flashlight.tscn
+res://assets/dev/testmap.tscn
 res://scenes/items/BadFlashlight.tscn
-res://README.md
+res://scenes/items/resources/BaseConeLight.tscn
+res://scenes/player/Look Script.gd
+res://Prototype Matt/Purple.tres
+res://scenes/player/player.gd

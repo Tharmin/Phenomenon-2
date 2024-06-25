@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://c0dkbp4v5r6h2"]
+[gd_scene load_steps=3 format=3 uid="uid://c0dkbp4v5r6h2"]
+
+[ext_resource type="Material" uid="uid://dhsboyqd8swnl" path="res://Prototype Matt/Purple.tres" id="1_umlns"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_gsnty"]
 size = Vector2(40, 15)
@@ -7,3 +9,4 @@ size = Vector2(40, 15)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_gsnty")
+surface_material_override/0 = ExtResource("1_umlns")
