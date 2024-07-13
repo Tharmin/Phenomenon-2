@@ -1,8 +1,3 @@
+res://assets/dev/TestMap/testmap.tscn
 res://scenes/player/player.tscn
 res://scenes/player/flashlight.tscn
-res://assets/dev/TestMap/testmap.tscn
-res://scenes/items/BadFlashlight.tscn
-res://scenes/items/resources/BaseConeLight.tscn
-res://scenes/player/Look Script.gd
-res://scenes/player/player.gd
-res://scenes/player/Label.gd
