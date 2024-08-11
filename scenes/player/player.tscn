@@ -31,6 +31,20 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
 [node name="InventoryManager" type="Node" parent="."]
 script = ExtResource("2_dfnub")
 
+[node name="Slot 1" type="Node" parent="InventoryManager"]
+
+[node name="Slot 2" type="Node" parent="InventoryManager"]
+
+[node name="Slot 3" type="Node" parent="InventoryManager"]
+
+[node name="Slot 4" type="Node" parent="InventoryManager"]
+
+[node name="Slot 5" type="Node" parent="InventoryManager"]
+
+[node name="Slot 6" type="Node" parent="InventoryManager"]
+
+[node name="Slot 7" type="Node" parent="InventoryManager"]
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
 mesh = SubResource("CapsuleMesh_rila0")

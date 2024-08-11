@@ -1,3 +1,5 @@
-res://assets/dev/TestMap/testmap.tscn
 res://scenes/player/player.tscn
 res://scenes/player/flashlight.tscn
+res://assets/dev/testmap.tscn
+res://assets/dev/TestMap/testmap.tscn
+res://scenes/player/InventoryManager.gd

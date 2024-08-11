@@ -2,10 +2,9 @@ extends Node
 
 var Inventory = []
 var CurrentItemIndex: int = 0
-var InventoryMaxSize = 9
 
 func add_item(scene):
-	if Inventory.size() >= InventoryMaxSize:
+	if true:
 		# return error
 		pass
 	else:
