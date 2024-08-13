@@ -3,3 +3,6 @@ res://scenes/player/flashlight.tscn
 res://assets/dev/testmap.tscn
 res://assets/dev/TestMap/testmap.tscn
 res://scenes/player/InventoryManager.gd
+res://assets/dev/test items/Pick up/Test Object Pick up.gd
+res://assets/dev/test items/Pick up/test_object_pick_up.tscn
+res://assets/OG assets/Rifle/Rifle.mesh

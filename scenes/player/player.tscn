@@ -35,6 +35,8 @@ script = ExtResource("2_dfnub")
 
 [node name="Slot 2" type="Node" parent="InventoryManager"]
 
+[node name="test child" type="Node" parent="InventoryManager/Slot 2"]
+
 [node name="Slot 3" type="Node" parent="InventoryManager"]
 
 [node name="Slot 4" type="Node" parent="InventoryManager"]

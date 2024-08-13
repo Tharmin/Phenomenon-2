@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://c0dkbp4v5r6h2"]
+[gd_scene load_steps=12 format=3 uid="uid://c0dkbp4v5r6h2"]
 
 [ext_resource type="Material" uid="uid://dhsboyqd8swnl" path="res://assets/dev/Prototype Matt/Purple.tres" id="1_sdwyy"]
 [ext_resource type="PackedScene" uid="uid://cp6elqppo7pv2" path="res://scenes/player/player.tscn" id="2_paiuo"]
+[ext_resource type="PackedScene" uid="uid://cavbxv64q4fsb" path="res://assets/dev/test items/Pick up/test_object_pick_up.tscn" id="3_8qwoe"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cqr48"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -57,6 +58,8 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_3i3dd")
 
+[sub_resource type="PackedScene" id="PackedScene_ygd7x"]
+
 [node name="testmap" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
@@ -74,3 +77,7 @@ skeleton = NodePath("")
 
 [node name="Root Player" parent="." instance=ExtResource("2_paiuo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.02748, 0, 0.329966)
+
+[node name="Test Object Pick up" parent="." instance=ExtResource("3_8qwoe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.644428, 0)
+item_scene = SubResource("PackedScene_ygd7x")
