@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1723418576
+::res://::1723669526
 default_env.tres::Environment::6359479741939619641::1719273667::0::1::::<><>::
 icon.png::CompressedTexture2D::4749897325912771467::1719273667::1719273667::1::::<><>::
 icon.svg::CompressedTexture2D::9162359761820003105::1719270674::1719270674::1::::<><>::
 README.md::TextFile::-1::1719270674::0::1::::<><>::
 todo.md::TextFile::-1::1719270674::0::1::::<><>::
-::res://addons/::1719273666
+::res://addons/::1723579594
 ::res://addons/BugReporter/::1719273667
 analytics_report.gd::GDScript::-1::1719273666::0::1::::AnalyticsReport<>RefCounted<>::
 config_example.cfg::TextFile::-1::1719273666::0::1::::<><>::
@@ -34,7 +34,24 @@ plugin.cfg::TextFile::-1::1719270674::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1719270674::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1719270674
 ::res://addons/godot-git-plugin/macos/::1719270674
-::res://addons/godot-git-plugin/win64/::1723407592
+::res://addons/godot-git-plugin/win64/::1723669518
+::res://addons/godot-jolt/::1723579595
+godot-jolt.gdextension::GDExtension::-1::1723579594::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1723579595::0::1::::<><>::
+THIRDPARTY.txt::TextFile::-1::1723579595::0::1::::<><>::
+::res://addons/godot-jolt/android/::1723579594
+::res://addons/godot-jolt/ios/::1723579594
+::res://addons/godot-jolt/ios/godot-jolt_ios.framework/::1723579594
+::res://addons/godot-jolt/ios/godot-jolt_ios_editor.framework/::1723579595
+::res://addons/godot-jolt/linux/::1723579595
+::res://addons/godot-jolt/macos/::1723579595
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/::1723579595
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/Resources/::1723579595
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/_CodeSignature/::1723579595
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1723579595
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1723579595
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1723579595
+::res://addons/godot-jolt/windows/::1723669518
 ::res://addons/HaSa1002.light-tools/::1719270674
 Light.png::CompressedTexture2D::8013172593678393849::1719270674::1719270674::1::::<><>::
 LightColor.gd::GDScript::-1::1719270674::0::1::::<>EditorInspectorPlugin<>::
@@ -49,17 +66,17 @@ testmap.tscn::PackedScene::5556299427458278616::1723419348::0::1::::<><>::
 Prototype Purple UwU.png::CompressedTexture2D::7612439556981562380::1719287717::1719287717::1::::<><>::
 Purple.tres::StandardMaterial3D::7687829759684453661::1719287717::0::1::::<><>::uid://dgpr1dao31v8g::::res://assets/dev/Prototype Matt/Prototype Purple UwU.png
 ::res://assets/dev/test items/::1723418576
-::res://assets/dev/test items/Pick up/::1723420152
-test_object_pick_up.tscn::PackedScene::4816296242693481281::1723420152::0::1::::<><>::res://assets/dev/test items/Pick up/Test Object Pick up.gd
-Test Object Pick up.gd::GDScript::-1::1723420126::0::1::::<>Node<>::
-::res://assets/dev/TestMap/::1723420152
+::res://assets/dev/test items/Pick up/::1723580039
+Test Object Pick up.gd::GDScript::-1::1723423200::0::1::::<>Node<>::
+test_object_pick_up.tscn::PackedScene::4816296242693481281::1723580039::0::1::::<><>::res://assets/dev/test items/Pick up/Test Object Pick up.gd
+::res://assets/dev/TestMap/::1723580039
 TestMap.glb::PackedScene::8791347538444502507::1719287717::1719287717::1::::<><>::
-testmap.tscn::PackedScene::6534365380965279053::1723420152::0::1::::<><>::uid://dhsboyqd8swnl::::res://assets/dev/Prototype Matt/Purple.tres<>uid://cp6elqppo7pv2::::res://scenes/player/player.tscn<>uid://cavbxv64q4fsb::::res://assets/dev/test items/Pick up/test_object_pick_up.tscn
+testmap.tscn::PackedScene::6534365380965279053::1723580039::0::1::::<><>::uid://dhsboyqd8swnl::::res://assets/dev/Prototype Matt/Purple.tres<>uid://cp6elqppo7pv2::::res://scenes/player/player.tscn<>uid://cavbxv64q4fsb::::res://assets/dev/test items/Pick up/test_object_pick_up.tscn
 ::res://assets/OG assets/::1723407567
-::res://assets/OG assets/Rifle/::1723421326
+::res://assets/OG assets/Rifle/::1723423095
 P1Rifle.glb::PackedScene::1697301314654900776::1723421325::1723421326::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
 P1Rifle_HK416.png::CompressedTexture2D::7390925052169974656::1723421325::1723421327::1::::<><>::
-new_array_mesh.mesh::ArrayMesh::6349470033610060709::1723421448::0::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
+Rifle.mesh::ArrayMesh::6349470033610060709::1723423095::0::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
 ::res://scenes/::1719270674
 ::res://scenes/items/::1719289168
 BadFlashlight.tscn::PackedScene::8074650288625592552::1719289168::0::1::::<><>::uid://b43e8qggl4b5e::::res://scenes/items/resources/BaseConeLight.tscn<>res://scenes/items/resources/BaseItem.gd
@@ -67,13 +84,13 @@ BadFlashlight.tscn::PackedScene::8074650288625592552::1719289168::0::1::::<><>::
 BaseConeLight.tscn::PackedScene::4480002375410524380::1719289168::0::1::::<><>::res://scenes/items/resources/light_toggle.gd
 BaseItem.gd::GDScript::-1::1719270674::0::1::::BaseItem<>Node<>::
 light_toggle.gd::GDScript::-1::1719270674::0::1::::<>SpotLight3D<>::
-::res://scenes/player/::1723420152
+::res://scenes/player/::1723582805
 AnimationPlaceholderNode.gd::GDScript::-1::1719270674::0::1::::<>RefCounted<>::
 BasicFlashlight.gd::GDScript::-1::1719270674::0::1::::<>SpotLight3D<>::
-flashlight.tscn::PackedScene::8618597012834787739::1723420152::0::1::::<><>::res://scenes/player/BasicFlashlight.gd<>res://scenes/player/Glowstick.gd
+flashlight.tscn::PackedScene::8618597012834787739::1723580038::0::1::::<><>::res://scenes/player/BasicFlashlight.gd<>res://scenes/player/Glowstick.gd
 Glowstick.gd::GDScript::-1::1719270674::0::1::::<>OmniLight3D<>::
 InventoryManager.gd::GDScript::-1::1723418410::0::1::::<>Node<>::
 Label.gd::GDScript::-1::1719289153::0::1::::<>Label<>::
 Look Script.gd::GDScript::-1::1719288641::0::1::::<>Node3D<>::
 player.gd::GDScript::-1::1719289020::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::5889933108283745057::1723420152::0::1::::<><>::res://scenes/player/player.gd<>res://scenes/player/Look Script.gd<>res://scenes/player/InventoryManager.gd<>res://scenes/player/Label.gd
+player.tscn::PackedScene::5889933108283745057::1723582805::0::1::::<><>::res://scenes/player/player.gd<>res://scenes/player/Look Script.gd<>res://scenes/player/InventoryManager.gd<>res://scenes/player/Label.gd

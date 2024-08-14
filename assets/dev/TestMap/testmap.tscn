@@ -79,5 +79,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.02748, 0, 0.329966)
 
 [node name="Test Object Pick up" parent="." instance=ExtResource("3_8qwoe")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.644428, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72983, 0.644428, -1.21223)
+disable_mode = 2
+mass = 0.01
+can_sleep = false
+linear_velocity = Vector3(0, 0.29, 0)
 item_scene = SubResource("PackedScene_ygd7x")
