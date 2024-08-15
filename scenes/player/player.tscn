@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://cp6elqppo7pv2"]
+[gd_scene load_steps=9 format=3 uid="uid://cp6elqppo7pv2"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_67hrl"]
 [ext_resource type="Script" path="res://scenes/player/Look Script.gd" id="2_a81jl"]
 [ext_resource type="Script" path="res://scenes/player/InventoryManager.gd" id="2_dfnub"]
 [ext_resource type="Script" path="res://scenes/player/RayCast3D.gd" id="3_aou8u"]
 [ext_resource type="Script" path="res://scenes/player/Label.gd" id="4_6vyh6"]
+[ext_resource type="Texture2D" uid="uid://c6t0w2l7b1ip1" path="res://assets/crosshair.png" id="6_g8j0y"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sissm"]
 radius = 0.3
@@ -98,3 +99,14 @@ grow_vertical = 2
 text = "Press ESC to move"
 horizontal_alignment = 1
 script = ExtResource("4_6vyh6")
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_g8j0y")
+stretch_mode = 3

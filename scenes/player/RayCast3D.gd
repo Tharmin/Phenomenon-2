@@ -8,5 +8,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if collide_with_bodies:
-		$Label.text = str(get_collider())
+	if is_colliding():
+		$Label.text = str(get_collider().item_scene)
+	else:
+		$Label.text = ""
