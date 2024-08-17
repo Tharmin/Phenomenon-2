@@ -1,15 +1,14 @@
+Node
+CollisionShape3D
 AudioStreamPlayer
 BaseItem
 TextureRect
 ColorRect
 Label
 RayCast3D
-CollisionShape3D
-Node
 MeshInstance3D
 CollisionPolygon3D
 RigidBody3D
 Control
 WebhookBuilder
 Node3D
-Camera3D

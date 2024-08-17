@@ -5,6 +5,7 @@ extends Node
 
 
 func _ready():
+	var fake = load("res://addons/BugReporter/example_game/coin.tscn").instantiate()
 	if item_scene == null:
 		queue_free()
 	if item_mesh != null:
