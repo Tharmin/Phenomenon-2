@@ -1,5 +1,2 @@
 res://scenes/player/player.tscn
-res://scenes/player/flashlight.tscn
-res://assets/dev/TestMap/testmap.tscn
-res://assets/dev/test items/Pick up/test_object_pick_up.tscn
-res://assets/dev/test items/Pick up/Test Object Pick up.gd
+res://scenes/player/Cell.gdshader
