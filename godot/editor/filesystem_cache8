@@ -1,102 +1,101 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729897228
-default_env.tres::Environment::6359479741939619641::1719286026::0::1::::<><>::
-desktop.ini::TextFile::-1::1719286026::0::1::::<><>::
-icon.png::CompressedTexture2D::4749897325912771467::1719286026::1727189256::1::::<><>::
-icon.svg::CompressedTexture2D::9162359761820003105::1719067612::1727189256::1::::<><>::
-README.md::TextFile::-1::1719067611::0::1::::<><>::
-todo.md::TextFile::-1::1719067612::0::1::::<><>::
-::res://addons/::1723671798
-::res://addons/BugReporter/::1719286026
-analytics_report.gd::GDScript::-1::1719286025::0::1::::AnalyticsReport<>RefCounted<>::
-config_example.cfg::TextFile::-1::1719286025::0::1::::<><>::
-plugin.cfg::TextFile::-1::1719286025::0::1::::<><>::
-plugin.gd::GDScript::-1::1719286025::0::1::::<>EditorPlugin<>::
-README.MD::TextFile::-1::1719286025::0::1::::<><>::
-::res://addons/BugReporter/example_game/::1727189256
-coin.gd::GDScript::-1::1719286025::0::1::::<>Node2D<>::
-coin.png::CompressedTexture2D::1646130512414682256::1719286025::1727189256::1::::<><>::
-coin.tscn::PackedScene::2787267432249668084::1719286025::0::1::::<><>::res://addons/BugReporter/example_game/coin.gd<>uid://xpnr8ti57uqa::::res://addons/BugReporter/example_game/coin.png
-example.gd::GDScript::-1::1719286025::0::1::::<>Node2D<>::
-example.tscn::PackedScene::6796634730973726956::1719286025::0::1::::<><>::uid://b8w5d56scp68v::::res://icon.png<>res://addons/BugReporter/example_game/example.gd<>uid://dj67hsmvv1p38::::res://addons/BugReporter/reporter.tscn<>res://addons/BugReporter/example_game/player.gd<>uid://xpnr8ti57uqa::::res://addons/BugReporter/example_game/coin.png<>uid://bfyf5f20tgiie::::res://addons/BugReporter/example_game/coin.tscn
-player.gd::GDScript::-1::1719286025::0::1::::<>Sprite2D<>::
-::res://addons/BugReporter/reporters/::1719286025
-reporter.gd::GDScript::-1::1719286025::0::1::::BugReporter<>PanelContainer<>::
-reporter.tscn::PackedScene::7856913763464511573::1719286025::0::1::::<><>::res://addons/BugReporter/reporters/reporter.gd<>uid://dmn75l8pt7i8t::::res://addons/BugReporter/webhook_builder/webhook_builder.tscn
-subnautica_like.gd::GDScript::-1::1719286025::0::1::::<>PanelContainer<>::
-subnautica_like.tscn::PackedScene::1413477293322472934::1719286026::0::1::::<><>::res://addons/BugReporter/reporters/subnautica_like.gd<>uid://dmn75l8pt7i8t::::res://addons/BugReporter/webhook_builder/webhook_builder.tscn
-TranslatedReporter.tscn::PackedScene::-1::1719286025::0::1::::<><>::uid://dj67hsmvv1p38::::res://addons/BugReporter/reporters/reporter.tscn
-::res://addons/BugReporter/webhook_builder/::1719286026
-webhook_builder.gd::GDScript::-1::1719286026::0::1::::WebhookBuilder<>HTTPRequest<>::
-webhook_builder.tscn::PackedScene::8030362232567729765::1719286026::0::1::::<><>::res://addons/BugReporter/webhook_builder/webhook_builder.gd
-::res://addons/godot-git-plugin/::1719067611
-git_plugin.gdextension::GDExtension::-1::1719067611::0::1::::<><>::
-plugin.cfg::TextFile::-1::1719067611::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1719067611::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1719067611
-::res://addons/godot-git-plugin/macos/::1719067611
-::res://addons/godot-git-plugin/win64/::1729897219
-::res://addons/godot-jolt/::1727188645
-godot-jolt.gdextension::GDExtension::-1::1727188645::0::1::::<><>::
-LICENSE.txt::TextFile::-1::1723671798::0::1::::<><>::
-THIRDPARTY.txt::TextFile::-1::1723671798::0::1::::<><>::
-::res://addons/godot-jolt/android/::1727188645
-::res://addons/godot-jolt/ios/::1723671798
-::res://addons/godot-jolt/ios/godot-jolt_ios.framework/::1727188645
-::res://addons/godot-jolt/ios/godot-jolt_ios_editor.framework/::1727188645
-::res://addons/godot-jolt/linux/::1727188646
-::res://addons/godot-jolt/macos/::1723671799
-::res://addons/godot-jolt/macos/godot-jolt_macos.framework/::1727188646
-::res://addons/godot-jolt/macos/godot-jolt_macos.framework/_CodeSignature/::1727188646
-::res://addons/godot-jolt/macos/godot-jolt_macos.framework/Resources/::1727188646
-::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1727188646
-::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1727188646
-::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1727188646
-::res://addons/godot-jolt/windows/::1729897219
-::res://addons/HaSa1002.light-tools/::1727189256
-Light.png::CompressedTexture2D::8013172593678393849::1719067611::1727189255::1::::<><>::
-LightColor.gd::GDScript::-1::1719067611::0::1::::<>EditorInspectorPlugin<>::
-LightColorEditor.gd::GDScript::-1::1719067611::0::1::::LightColorEditor<>EditorProperty<>::
-LightTools.gd::GDScript::-1::1719067611::0::1::::<>EditorPlugin<>::
-plugin.cfg::TextFile::-1::1719067611::0::1::::<><>::
-ToolIcon.svg::CompressedTexture2D::9189269069292512322::1719067611::1727189256::1::::<><>::
-::res://assets/::1727189256
-crosshair.png::CompressedTexture2D::6989477346357015128::1723673413::1727189255::1::::<><>::
-::res://assets/dev/::1723518105
-testmap.tscn::PackedScene::5556299427458278616::1723467623::0::1::::<><>::
-::res://assets/dev/Prototype Matt/::1727189256
-Prototype Purple UwU.png::CompressedTexture2D::7612439556981562380::1719286025::1727189256::1::::<><>::
-Purple.tres::StandardMaterial3D::7687829759684453661::1719286497::0::1::::<><>::uid://dgpr1dao31v8g::::res://assets/dev/Prototype Matt/Prototype Purple UwU.png
-::res://assets/dev/test items/::1723518105
-::res://assets/dev/test items/Pick up/::1727188646
-Test Object Pick up.gd::GDScript::-1::1727188646::0::1::::<>Node<>::
-test_object_pick_up.tscn::PackedScene::4816296242693481281::1723742697::0::1::::<><>::res://assets/dev/test items/Pick up/Test Object Pick up.gd
-::res://assets/dev/TestMap/::1727189256
-TestMap.glb::PackedScene::8791347538444502507::1719286385::1727189256::1::::<><>::
-testmap.tscn::PackedScene::6534365380965279053::1727188646::0::1::::<><>::uid://dhsboyqd8swnl::::res://assets/dev/Prototype Matt/Purple.tres<>uid://cp6elqppo7pv2::::res://scenes/player/player.tscn<>uid://cavbxv64q4fsb::::res://assets/dev/test items/Pick up/test_object_pick_up.tscn
-::res://assets/OG assets/::1723518105
-::res://assets/OG assets/Rifle/::1727189256
-P1Rifle.glb::PackedScene::1697301314654900776::1723518105::1727189256::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
-P1Rifle_HK416.png::CompressedTexture2D::7390925052169974656::1723518105::1727189256::1::::<><>::
-Rifle.mesh::ArrayMesh::6349470033610060709::1723518105::0::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
-::res://scenes/::1727190593
-::res://scenes/items/::1719319570
-BadFlashlight.tscn::PackedScene::8074650288625592552::1719319570::0::1::::<><>::uid://b43e8qggl4b5e::::res://scenes/items/resources/BaseConeLight.tscn<>res://scenes/items/resources/BaseItem.gd
-::res://scenes/items/resources/::1729781322
-BaseConeLight.tscn::PackedScene::4480002375410524380::1719319570::0::1::::<><>::res://scenes/items/resources/light_toggle.gd
-BaseItem.gd::GDScript::-1::1719067612::0::1::::BaseItem<>Node<>::
-light_toggle.gd::GDScript::-1::1719067612::0::1::::<>SpotLight3D<>::
-::res://scenes/player/::1729781612
-AnimationPlaceholderNode.gd::GDScript::-1::1719067612::0::1::::<>RefCounted<>::
-BasicFlashlight.gd::GDScript::-1::1719067612::0::1::::<>SpotLight3D<>::
-Cell.gdshader::Shader::-1::1729781612::0::1::::<><>::
-flashlight.tscn::PackedScene::8618597012834787739::1723742697::0::1::::<><>::res://scenes/player/BasicFlashlight.gd<>res://scenes/player/Glowstick.gd
-Glowstick.gd::GDScript::-1::1719067612::0::1::::<>OmniLight3D<>::
-InventoryManager.gd::GDScript::-1::1723518106::0::1::::<>Node<>::
-Label.gd::GDScript::-1::1723672069::0::1::::<>Label<>::
-Look Script.gd::GDScript::-1::1719290306::0::1::::<>Node3D<>::
-player.gd::GDScript::-1::1719290306::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::5889933108283745057::1729781336::0::1::::<><>::res://scenes/player/player.gd<>res://scenes/player/Look Script.gd<>res://scenes/player/InventoryManager.gd<>res://scenes/player/RayCast3D.gd<>res://scenes/player/Label.gd<>res://scenes/player/Cell.gdshader<>uid://c6t0w2l7b1ip1::::res://assets/crosshair.png
-RayCast3D.gd::GDScript::-1::1723675361::0::1::::<>RayCast3D<>::
-::res://scenes/prototypes/::1727190595
-multiplayer_test.tscn::PackedScene::7782808724870455909::1727190595::0::1::::<><>::
+::res://::1730602499
+default_env.tres::Environment::6359479741939619641::1719273667::0::1::::<><>::
+icon.png::CompressedTexture2D::4749897325912771467::1719270067::1730651820::1::::<><>::
+icon.svg::CompressedTexture2D::9162359761820003105::1719267074::1730651820::1::::<><>::
+README.md::TextFile::-1::1719267074::0::1::::<><>::
+todo.md::TextFile::-1::1719267074::0::1::::<><>::
+::res://addons/::1723909184
+::res://addons/BugReporter/::1719270067
+analytics_report.gd::GDScript::-1::1719273666::0::1::::AnalyticsReport<>RefCounted<>::
+config_example.cfg::TextFile::-1::1719273666::0::1::::<><>::
+plugin.cfg::TextFile::-1::1719273666::0::1::::<><>::
+plugin.gd::GDScript::-1::1719270066::0::1::::<>EditorPlugin<>::
+README.MD::TextFile::-1::1719273666::0::1::::<><>::
+::res://addons/BugReporter/example_game/::1730042068
+coin.gd::GDScript::-1::1719273666::0::1::::<>Node2D<>::
+coin.png::CompressedTexture2D::1646130512414682256::1719270066::1730651820::1::::<><>::
+coin.tscn::PackedScene::2787267432249668084::1719273666::0::1::::<><>::res://addons/BugReporter/example_game/coin.gd<>uid://xpnr8ti57uqa::::res://addons/BugReporter/example_game/coin.png
+example.gd::GDScript::-1::1719273666::0::1::::<>Node2D<>::
+example.tscn::PackedScene::6796634730973726956::1719273666::0::1::::<><>::uid://b8w5d56scp68v::::res://icon.png<>res://addons/BugReporter/example_game/example.gd<>uid://dj67hsmvv1p38::::res://addons/BugReporter/reporter.tscn<>res://addons/BugReporter/example_game/player.gd<>uid://xpnr8ti57uqa::::res://addons/BugReporter/example_game/coin.png<>uid://bfyf5f20tgiie::::res://addons/BugReporter/example_game/coin.tscn
+player.gd::GDScript::-1::1719273666::0::1::::<>Sprite2D<>::
+::res://addons/BugReporter/reporters/::1719270066
+reporter.gd::GDScript::-1::1719273666::0::1::::BugReporter<>PanelContainer<>::
+reporter.tscn::PackedScene::7856913763464511573::1719273666::0::1::::<><>::res://addons/BugReporter/reporters/reporter.gd<>uid://dmn75l8pt7i8t::::res://addons/BugReporter/webhook_builder/webhook_builder.tscn
+subnautica_like.gd::GDScript::-1::1719273666::0::1::::<>PanelContainer<>::
+subnautica_like.tscn::PackedScene::1413477293322472934::1719273666::0::1::::<><>::res://addons/BugReporter/reporters/subnautica_like.gd<>uid://dmn75l8pt7i8t::::res://addons/BugReporter/webhook_builder/webhook_builder.tscn
+TranslatedReporter.tscn::PackedScene::-1::1719273666::0::1::::<><>::uid://dj67hsmvv1p38::::res://addons/BugReporter/reporters/reporter.tscn
+::res://addons/BugReporter/webhook_builder/::1719270067
+webhook_builder.gd::GDScript::-1::1719273667::0::1::::WebhookBuilder<>HTTPRequest<>::
+webhook_builder.tscn::PackedScene::8030362232567729765::1719273667::0::1::::<><>::res://addons/BugReporter/webhook_builder/webhook_builder.gd
+::res://addons/godot-git-plugin/::1719267074
+git_plugin.gdextension::GDExtension::-1::1719267074::0::1::::<><>::
+plugin.cfg::TextFile::-1::1719270674::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1719270674::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1719267074
+::res://addons/godot-git-plugin/macos/::1719267074
+::res://addons/godot-git-plugin/win64/::1730602489
+::res://addons/godot-jolt/::1723909184
+godot-jolt.gdextension::GDExtension::-1::1723909184::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1723912784::0::1::::<><>::
+THIRDPARTY.txt::TextFile::-1::1723912784::0::1::::<><>::
+::res://addons/godot-jolt/android/::1723909184
+::res://addons/godot-jolt/ios/::1723909184
+::res://addons/godot-jolt/ios/godot-jolt_ios.framework/::1723909184
+::res://addons/godot-jolt/ios/godot-jolt_ios_editor.framework/::1723909184
+::res://addons/godot-jolt/linux/::1723909184
+::res://addons/godot-jolt/macos/::1723909184
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/::1723909184
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/_CodeSignature/::1723909184
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/Resources/::1723909184
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1723909184
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1723909184
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1723909184
+::res://addons/godot-jolt/windows/::1730602489
+::res://addons/HaSa1002.light-tools/::1730042068
+Light.png::CompressedTexture2D::8013172593678393849::1719267074::1730651820::1::::<><>::
+LightColor.gd::GDScript::-1::1719267074::0::1::::<>EditorInspectorPlugin<>::
+LightColorEditor.gd::GDScript::-1::1719267074::0::1::::LightColorEditor<>EditorProperty<>::
+LightTools.gd::GDScript::-1::1719267074::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1719270674::0::1::::<><>::
+ToolIcon.svg::CompressedTexture2D::9189269069292512322::1719267074::1730651820::1::::<><>::
+::res://assets/::1730042068
+crosshair.png::CompressedTexture2D::6989477346357015128::1723746557::1730651820::1::::<><>::
+::res://assets/dev/::1723415748
+testmap.tscn::PackedScene::5556299427458278616::1723419348::0::1::::<><>::
+::res://assets/dev/Prototype Matt/::1730042068
+Prototype Purple UwU.png::CompressedTexture2D::7612439556981562380::1719284117::1730651820::1::::<><>::
+Purple.tres::StandardMaterial3D::7687829759684453661::1719284117::0::1::::<><>::uid://dgpr1dao31v8g::::res://assets/dev/Prototype Matt/Prototype Purple UwU.png
+::res://assets/dev/test items/::1723414976
+::res://assets/dev/test items/Pick up/::1723910010
+Test Object Pick up.gd::GDScript::-1::1723910009::0::1::::<>Node<>::
+test_object_pick_up.tscn::PackedScene::4816296242693481281::1723913610::0::1::::<><>::res://assets/dev/test items/Pick up/Test Object Pick up.gd
+::res://assets/dev/TestMap/::1730042068
+TestMap.glb::PackedScene::8791347538444502507::1719284117::1730651820::1::::<><>::
+testmap.tscn::PackedScene::6534365380965279053::1723913609::0::1::::<><>::uid://dhsboyqd8swnl::::res://assets/dev/Prototype Matt/Purple.tres<>uid://cp6elqppo7pv2::::res://scenes/player/player.tscn<>uid://cavbxv64q4fsb::::res://assets/dev/test items/Pick up/test_object_pick_up.tscn
+::res://assets/OG assets/::1723403967
+::res://assets/OG assets/Rifle/::1730042069
+P1Rifle.glb::PackedScene::1697301314654900776::1723417725::1730651820::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
+P1Rifle_HK416.png::CompressedTexture2D::7390925052169974656::1723417725::1730651820::1::::<><>::
+Rifle.mesh::ArrayMesh::6349470033610060709::1723423095::0::1::::<><>::uid://ddkhpq5blejky::::res://assets/OG assets/Rifle/P1Rifle_HK416.png
+::res://scenes/::1729893841
+::res://scenes/items/::1719285568
+BadFlashlight.tscn::PackedScene::8074650288625592552::1719289168::0::1::::<><>::uid://b43e8qggl4b5e::::res://scenes/items/resources/BaseConeLight.tscn<>res://scenes/items/resources/BaseItem.gd
+::res://scenes/items/resources/::1719285568
+BaseConeLight.tscn::PackedScene::4480002375410524380::1719289168::0::1::::<><>::res://scenes/items/resources/light_toggle.gd
+BaseItem.gd::GDScript::-1::1719267074::0::1::::BaseItem<>Node<>::
+light_toggle.gd::GDScript::-1::1719270674::0::1::::<>SpotLight3D<>::
+::res://scenes/player/::1730584736
+AnimationPlaceholderNode.gd::GDScript::-1::1719267074::0::1::::<>RefCounted<>::
+BasicFlashlight.gd::GDScript::-1::1719267074::0::1::::<>SpotLight3D<>::
+Cell.gdshader::Shader::-1::1730584736::0::1::::<><>::
+flashlight.tscn::PackedScene::8618597012834787739::1723913609::0::1::::<><>::res://scenes/player/BasicFlashlight.gd<>res://scenes/player/Glowstick.gd
+Glowstick.gd::GDScript::-1::1719267074::0::1::::<>OmniLight3D<>::
+InventoryManager.gd::GDScript::-1::1723414810::0::1::::<>Node<>::
+Label.gd::GDScript::-1::1723746557::0::1::::<>Label<>::
+Look Script.gd::GDScript::-1::1719285041::0::1::::<>Node3D<>::
+player.gd::GDScript::-1::1719285420::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::5889933108283745057::1729897441::0::1::::<><>::res://scenes/player/player.gd<>res://scenes/player/Look Script.gd<>res://scenes/player/InventoryManager.gd<>res://scenes/player/RayCast3D.gd<>res://scenes/player/Label.gd<>res://scenes/player/Cell.gdshader<>uid://c6t0w2l7b1ip1::::res://assets/crosshair.png
+RayCast3D.gd::GDScript::-1::1723746557::0::1::::<>RayCast3D<>::
+::res://scenes/prototypes/::1729893841
+multiplayer_test.tscn::PackedScene::7782808724870455909::1729897441::0::1::::<><>::
