@@ -1,3 +1,19 @@
+res://assets/OG assets/Player/menu.tscn
+res://scenes/player/Shader types/Cell.gdshader
+res://assets/Shading.tres
+res://assets/Fresnel.tres
+res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material
+res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.material
+res://assets/OG assets/Player/Textures & Materials/Cat/Cat.material
+res://assets/OG assets/Player/Textures & Materials/Dog/Dog.material
+res://assets/OG assets/Player/Textures & Materials/Mouse/Mouse.material
+res://assets/OG assets/Player/Textures & Materials/Hare/Hare.material
+res://assets/OG assets/Player/Textures & Materials/Raccoon/Raccoon.material
+res://assets/OG assets/Player/Textures & Materials/Body/Body.material
+res://scenes/player/Shader types/hatch.gdshader
 res://scenes/player/player.tscn
-res://scenes/player/Cell.gdshader
-res://assets/dev/Prototype Matt/Purple.tres
+res://scenes/player/flashlight.tscn
+res://assets/dev/TestMap/testmap.tscn
+res://assets/dev/test items/Pick up/test_object_pick_up.tscn
+res://scenes/prototypes/multiplayer_test.tscn
+res://assets/OG assets/Player/omni_light_3d.gd

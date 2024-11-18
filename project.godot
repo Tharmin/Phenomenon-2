@@ -28,6 +28,10 @@ window/size/mode=2
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
+[dotnet]
+
+project/assembly_name="Phenomenon RELOADED"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/BugReporter/plugin.cfg", "res://addons/HaSa1002.light-tools/plugin.cfg")

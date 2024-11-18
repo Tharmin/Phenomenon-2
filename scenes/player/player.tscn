@@ -5,8 +5,9 @@
 [ext_resource type="Script" path="res://scenes/player/InventoryManager.gd" id="2_dfnub"]
 [ext_resource type="Script" path="res://scenes/player/RayCast3D.gd" id="3_aou8u"]
 [ext_resource type="Script" path="res://scenes/player/Label.gd" id="4_6vyh6"]
-[ext_resource type="Shader" path="res://scenes/player/Cell.gdshader" id="5_1m2cl"]
+[ext_resource type="Shader" path="res://scenes/player/Shader types/Cell.gdshader" id="5_1m2cl"]
 [ext_resource type="Texture2D" uid="uid://c6t0w2l7b1ip1" path="res://assets/crosshair.png" id="6_g8j0y"]
+[ext_resource type="Texture2D" uid="uid://crltmqdmreogb" path="res://assets/Shading.tres" id="6_i523m"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sissm"]
 radius = 0.3
@@ -15,14 +16,6 @@ height = 1.75
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_rila0"]
 radius = 0.25
 height = 1.75
-
-[sub_resource type="Gradient" id="Gradient_qojk7"]
-interpolation_mode = 1
-offsets = PackedFloat32Array(0, 0.25, 0.5, 0.75)
-colors = PackedColorArray(0, 0, 0, 1, 0.142992, 0.107014, 1.20327e-08, 1, 0.113725, 0.501961, 1, 1, 1, 1, 1, 1)
-
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_ipr3d"]
-gradient = SubResource("Gradient_qojk7")
 
 [sub_resource type="Gradient" id="Gradient_eikog"]
 offsets = PackedFloat32Array(0)
@@ -41,12 +34,17 @@ shader_parameter/metallic_texture_channel = null
 shader_parameter/specular = null
 shader_parameter/metallic = null
 shader_parameter/normal_scale = null
-shader_parameter/uv1_scale = null
-shader_parameter/uv1_offset = null
-shader_parameter/uv2_scale = null
-shader_parameter/uv2_offset = null
-shader_parameter/color_gradient = SubResource("GradientTexture1D_ipr3d")
+shader_parameter/opacity = 1.0
+shader_parameter/color_gradient = ExtResource("6_i523m")
 shader_parameter/fresnel_gradient = SubResource("GradientTexture1D_i7icn")
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_x6tbt"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:rotation")
+properties/1/spawn = true
+properties/1/replication_mode = 1
 
 [node name="Root Player" type="CharacterBody3D"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
@@ -144,3 +142,6 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("6_g8j0y")
 stretch_mode = 3
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_x6tbt")
