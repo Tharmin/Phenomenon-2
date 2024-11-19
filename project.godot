@@ -32,6 +32,10 @@ window/stretch/aspect="expand"
 
 project/assembly_name="Phenomenon RELOADED"
 
+[editor]
+
+movie_writer/movie_file="C:/Users/davek/Downloads/p2.avi"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/BugReporter/plugin.cfg", "res://addons/HaSa1002.light-tools/plugin.cfg")
