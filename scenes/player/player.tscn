@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://cp6elqppo7pv2"]
+[gd_scene load_steps=16 format=3 uid="uid://cp6elqppo7pv2"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_67hrl"]
 [ext_resource type="Script" path="res://scenes/player/Look Script.gd" id="2_a81jl"]
@@ -8,10 +8,7 @@
 [ext_resource type="Shader" path="res://scenes/player/Shader types/Cell.gdshader" id="5_1m2cl"]
 [ext_resource type="Texture2D" uid="uid://c6t0w2l7b1ip1" path="res://assets/crosshair.png" id="6_g8j0y"]
 [ext_resource type="Texture2D" uid="uid://crltmqdmreogb" path="res://assets/Shading.tres" id="6_i523m"]
-
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sissm"]
-radius = 0.3
-height = 1.75
+[ext_resource type="Script" path="res://scenes/player/input_5.gd" id="9_fitmg"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_rila0"]
 radius = 0.25
@@ -46,28 +43,39 @@ properties/1/path = NodePath(".:rotation")
 properties/1/spawn = true
 properties/1/replication_mode = 1
 
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sissm"]
+radius = 0.3
+height = 1.75
+
 [node name="Root Player" type="CharacterBody3D"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
 script = ExtResource("1_67hrl")
 
-[node name="Collider" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
-shape = SubResource("CapsuleShape3D_sissm")
+[node name="Meshes 0" type="Node3D" parent="."]
 
-[node name="Neck" type="Node3D" parent="."]
+[node name="ThirdPerson" type="Node3D" parent="Meshes 0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.42443, 1.32554)
+
+[node name="Bean" type="MeshInstance3D" parent="Meshes 0/ThirdPerson"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, -0.549428, -1.32554)
+mesh = SubResource("CapsuleMesh_rila0")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("ShaderMaterial_r1u5f")
+
+[node name="Camera 1" type="Node3D" parent="."]
 transform = Transform3D(1, -3.55271e-15, 3.55271e-15, -3.55271e-15, 1, 0, 3.55271e-15, 1.55294e-22, 1, 0, 1.4, 0)
 script = ExtResource("2_a81jl")
 
-[node name="Camera3D" type="Camera3D" parent="Neck"]
+[node name="MainCamera" type="Camera3D" parent="Camera 1"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
 
-[node name="RayCast3D" type="RayCast3D" parent="Neck/Camera3D"]
+[node name="PickUpRay" type="RayCast3D" parent="Camera 1/MainCamera"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -0.25)
 target_position = Vector3(0, -1.75, 0)
 collision_mask = 2
 script = ExtResource("3_aou8u")
 
-[node name="Label" type="Label" parent="Neck/Camera3D/RayCast3D"]
+[node name="Label" type="Label" parent="Camera 1/MainCamera/PickUpRay"]
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
@@ -81,32 +89,26 @@ grow_vertical = 0
 text = "Test"
 horizontal_alignment = 1
 
-[node name="InventoryManager" type="Node" parent="."]
+[node name="Inventory 2" type="Node" parent="."]
 script = ExtResource("2_dfnub")
 
-[node name="Slot 1" type="Node" parent="InventoryManager"]
+[node name="Slot 1" type="Node" parent="Inventory 2"]
 
-[node name="Slot 2" type="Node" parent="InventoryManager"]
+[node name="Slot 2" type="Node" parent="Inventory 2"]
 
-[node name="test child" type="Node" parent="InventoryManager/Slot 2"]
+[node name="test child" type="Node" parent="Inventory 2/Slot 2"]
 
-[node name="Slot 3" type="Node" parent="InventoryManager"]
+[node name="Slot 3" type="Node" parent="Inventory 2"]
 
-[node name="Slot 4" type="Node" parent="InventoryManager"]
+[node name="Slot 4" type="Node" parent="Inventory 2"]
 
-[node name="Slot 5" type="Node" parent="InventoryManager"]
+[node name="Slot 5" type="Node" parent="Inventory 2"]
 
-[node name="Slot 6" type="Node" parent="InventoryManager"]
+[node name="Slot 6" type="Node" parent="Inventory 2"]
 
-[node name="Slot 7" type="Node" parent="InventoryManager"]
+[node name="Slot 7" type="Node" parent="Inventory 2"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
-mesh = SubResource("CapsuleMesh_rila0")
-skeleton = NodePath("")
-surface_material_override/0 = SubResource("ShaderMaterial_r1u5f")
-
-[node name="Control" type="Control" parent="."]
+[node name="GUI 3" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -115,7 +117,7 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="Control"]
+[node name="Label" type="Label" parent="GUI 3"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -132,7 +134,7 @@ text = "Press ESC to move"
 horizontal_alignment = 1
 script = ExtResource("4_6vyh6")
 
-[node name="TextureRect" type="TextureRect" parent="Control"]
+[node name="TextureRect" type="TextureRect" parent="GUI 3"]
 visible = false
 layout_mode = 1
 anchors_preset = 15
@@ -143,5 +145,13 @@ grow_vertical = 2
 texture = ExtResource("6_g8j0y")
 stretch_mode = 3
 
-[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+[node name="Sync 4" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_x6tbt")
+
+[node name="Input 5" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_x6tbt")
+script = ExtResource("9_fitmg")
+
+[node name="MovementHitbox" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
+shape = SubResource("CapsuleShape3D_sissm")

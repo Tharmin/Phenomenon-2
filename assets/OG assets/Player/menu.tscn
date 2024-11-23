@@ -7540,7 +7540,7 @@ bone_idx = 47
 transform = Transform3D(1, 5.21541e-07, -2.98023e-08, 4.47035e-08, 1, 3.27826e-07, 0, 0, 1, 0.0800196, -0.0166013, -0.0750093)
 light_color = Color(1, 0, 0, 1)
 light_energy = 2.307
-omni_range = 0.343833
+omni_range = 0.347169
 omni_attenuation = 1.56
 script = ExtResource("1_5caim")
 min_light = 0.34
@@ -7564,7 +7564,7 @@ draw_pass_1 = SubResource("PlaneMesh_lvwge")
 transform = Transform3D(1, 3.72529e-09, -5.96046e-08, -1.49012e-08, 1, 0, 2.98023e-08, 0, 1, 0, 0, 0)
 light_color = Color(1, 0.266355, 0, 1)
 light_energy = 0.14
-omni_range = 6.62555
+omni_range = 6.70339
 script = ExtResource("1_5caim")
 min_light = 6.5
 max_light = 7.0
@@ -7719,6 +7719,7 @@ skeleton = NodePath("../../../../Armature")
 
 [node name="Keith_the_Cat" type="Node3D" parent="Player/Meshes/Heads"]
 transform = Transform3D(0.409091, 0, 0, 0, 0.409091, 0, 0, 0, 0.409091, -0.000100613, 0.0121936, 0.736253)
+visible = false
 
 [node name="Keith_the_Cat" type="MeshInstance3D" parent="Player/Meshes/Heads/Keith_the_Cat"]
 transform = Transform3D(2.44444, 0, 0, 0, 0, 2.44444, 0, -2.44444, 0, 0.000245942, -0.0298066, -1.79973)
@@ -7736,7 +7737,6 @@ surface_material_override/0 = ExtResource("27_y342p")
 
 [node name="Nate_the_Dog" type="Node3D" parent="Player/Meshes/Heads"]
 transform = Transform3D(0.135368, 0, 0, 0, 0.135368, 0, 0, 0, 0.135368, -0.000303745, 0.0277107, 0.868296)
-visible = false
 
 [node name="Nate_the_Dog" type="MeshInstance3D" parent="Player/Meshes/Heads/Nate_the_Dog"]
 transform = Transform3D(7.38728, 0, 0, 0, 0, 7.38728, 0, -7.38728, 0, 0.00224385, -0.204707, -6.41435)
