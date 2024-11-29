@@ -61,6 +61,7 @@ shadow_mesh = SubResource("ArrayMesh_3i3dd")
 [sub_resource type="PackedScene" id="PackedScene_ygd7x"]
 
 [node name="testmap" type="Node3D"]
+process_mode = 3
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_mkkm5")

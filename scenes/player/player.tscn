@@ -1,14 +1,16 @@
-[gd_scene load_steps=16 format=3 uid="uid://cp6elqppo7pv2"]
+[gd_scene load_steps=21 format=3 uid="uid://cp6elqppo7pv2"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_67hrl"]
 [ext_resource type="Script" path="res://scenes/player/Look Script.gd" id="2_a81jl"]
 [ext_resource type="Script" path="res://scenes/player/InventoryManager.gd" id="2_dfnub"]
 [ext_resource type="Script" path="res://scenes/player/RayCast3D.gd" id="3_aou8u"]
-[ext_resource type="Script" path="res://scenes/player/Label.gd" id="4_6vyh6"]
 [ext_resource type="Shader" path="res://scenes/player/Shader types/Cell.gdshader" id="5_1m2cl"]
 [ext_resource type="Texture2D" uid="uid://c6t0w2l7b1ip1" path="res://assets/crosshair.png" id="6_g8j0y"]
 [ext_resource type="Texture2D" uid="uid://crltmqdmreogb" path="res://assets/Shading.tres" id="6_i523m"]
+[ext_resource type="Script" path="res://scenes/player/gui.gd" id="7_c4gb4"]
 [ext_resource type="Script" path="res://scenes/player/input_5.gd" id="9_fitmg"]
+[ext_resource type="FontFile" uid="uid://c5s38hvhp5n7m" path="res://assets/fonts/Jost-Medium.ttf" id="9_g12mu"]
+[ext_resource type="Script" path="res://scenes/player/Settings box.gd" id="10_iufpi"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_rila0"]
 radius = 0.25
@@ -35,6 +37,18 @@ shader_parameter/opacity = 1.0
 shader_parameter/color_gradient = ExtResource("6_i523m")
 shader_parameter/fresnel_gradient = SubResource("GradientTexture1D_i7icn")
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qxdlp"]
+bg_color = Color(0.0962047, 0.0962048, 0.0962047, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xdv8m"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Theme" id="Theme_qornl"]
+default_font = ExtResource("9_g12mu")
+default_font_size = 45
+Button/styles/normal = SubResource("StyleBoxFlat_qxdlp")
+Button/styles/pressed = SubResource("StyleBoxFlat_xdv8m")
+
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_x6tbt"]
 properties/0/path = NodePath(".:position")
 properties/0/spawn = true
@@ -48,6 +62,7 @@ radius = 0.3
 height = 1.75
 
 [node name="Root Player" type="CharacterBody3D"]
+process_mode = 3
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
 script = ExtResource("1_67hrl")
 
@@ -75,20 +90,6 @@ target_position = Vector3(0, -1.75, 0)
 collision_mask = 2
 script = ExtResource("3_aou8u")
 
-[node name="Label" type="Label" parent="Camera 1/MainCamera/PickUpRay"]
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -20.0
-offset_top = -23.0
-offset_right = 20.0
-grow_horizontal = 2
-grow_vertical = 0
-text = "Test"
-horizontal_alignment = 1
-
 [node name="Inventory 2" type="Node" parent="."]
 script = ExtResource("2_dfnub")
 
@@ -115,9 +116,62 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("7_c4gb4")
 metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="GUI 3"]
+[node name="Gameplay" type="Control" parent="GUI 3"]
+process_mode = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="GUI 3/Gameplay"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -70.5
+offset_top = 460.0
+offset_right = 70.5
+offset_bottom = 483.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_alignment = 1
+
+[node name="Crosshair" type="TextureRect" parent="GUI 3/Gameplay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_g8j0y")
+stretch_mode = 3
+
+[node name="Settings" type="Control" parent="GUI 3"]
+process_mode = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="GUI 3/Settings"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.196078)
+
+[node name="Label" type="Label" parent="GUI 3/Settings"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -130,28 +184,62 @@ offset_right = 70.5
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "Press ESC to move"
 horizontal_alignment = 1
-script = ExtResource("4_6vyh6")
 
-[node name="TextureRect" type="TextureRect" parent="GUI 3"]
-visible = false
+[node name="Base options" type="VBoxContainer" parent="GUI 3/Settings"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
+anchors_preset = 2
+anchor_top = 1.0
 anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("6_g8j0y")
-stretch_mode = 3
+offset_left = 15.0
+offset_top = -565.0
+offset_right = 415.0
+offset_bottom = -15.0
+grow_vertical = 0
+theme = SubResource("Theme_qornl")
+script = ExtResource("10_iufpi")
+
+[node name="Resume" type="Button" parent="GUI 3/Settings/Base options"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Resume"
+metadata/_edit_use_anchors_ = true
+
+[node name="Settings" type="Button" parent="GUI 3/Settings/Base options"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Settings"
+metadata/_edit_use_anchors_ = true
+
+[node name="Option 3" type="Button" parent="GUI 3/Settings/Base options"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Option :3"
+metadata/_edit_use_anchors_ = true
+
+[node name="Option 4" type="Button" parent="GUI 3/Settings/Base options"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Option 4"
+metadata/_edit_use_anchors_ = true
+
+[node name="Quit" type="Button" parent="GUI 3/Settings/Base options"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Quit Game"
+metadata/_edit_use_anchors_ = true
 
 [node name="Sync 4" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_x6tbt")
 
 [node name="Input 5" type="MultiplayerSynchronizer" parent="."]
+process_mode = 1
 replication_config = SubResource("SceneReplicationConfig_x6tbt")
 script = ExtResource("9_fitmg")
 
 [node name="MovementHitbox" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
 shape = SubResource("CapsuleShape3D_sissm")
+
+[connection signal="pressed" from="GUI 3/Settings/Base options/Resume" to="GUI 3/Settings/Base options" method="resume"]
+[connection signal="pressed" from="GUI 3/Settings/Base options/Quit" to="GUI 3/Settings/Base options" method="quit"]

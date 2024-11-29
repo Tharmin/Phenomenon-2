@@ -19,7 +19,7 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 func _ready():
 	# Set the camera as current if we are this player.
 	if player == multiplayer.get_unique_id():
-		$Camera3D.current = true
+		$"Camera 1/MainCamera".current = true
 	# Only process on server.
 	# EDIT: Let the client simulate player movement too to compesate network input latency.
 	# set_physics_process(multiplayer.is_server())

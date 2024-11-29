@@ -12,9 +12,13 @@ res://assets/OG assets/Player/Textures & Materials/Raccoon/Raccoon.material
 res://assets/OG assets/Player/Textures & Materials/Body/Body.material
 res://scenes/player/Shader types/hatch.gdshader
 res://scenes/player/input_5.gd
-res://scenes/player/player.gd
+res://scenes/player/Look Script.gd
+res://scenes/player/gui.gd
+res://scenes/player/Label.gd
+res://assets/OG assets/Player/menu.tscn
 res://scenes/player/flashlight.tscn
 res://assets/dev/TestMap/testmap.tscn
 res://assets/dev/test items/Pick up/test_object_pick_up.tscn
 res://scenes/prototypes/multiplayer_test.tscn
-res://assets/OG assets/Player/menu.tscn
+res://scenes/player/Settings box.gd
+res://scenes/player/RayCast3D.gd
