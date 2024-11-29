@@ -2,7 +2,7 @@ extends Node3D
 
 @export var sensitivity:float = 0.0025
 
-@onready var mouse_motion = get_parent().get_child(5)
+@onready var mouse_motion = get_parent().get_child(0)
 
 
 func _physics_process(delta: float):

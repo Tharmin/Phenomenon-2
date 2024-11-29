@@ -1,7 +1,6 @@
-[gd_scene load_steps=12 format=4 uid="uid://c0dkbp4v5r6h2"]
+[gd_scene load_steps=11 format=4 uid="uid://c0dkbp4v5r6h2"]
 
 [ext_resource type="Material" uid="uid://dhsboyqd8swnl" path="res://assets/dev/Prototype Matt/Purple.tres" id="1_sdwyy"]
-[ext_resource type="PackedScene" uid="uid://cp6elqppo7pv2" path="res://scenes/player/player.tscn" id="2_paiuo"]
 [ext_resource type="PackedScene" uid="uid://cavbxv64q4fsb" path="res://assets/dev/test items/Pick up/test_object_pick_up.tscn" id="3_8qwoe"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cqr48"]
@@ -63,6 +62,10 @@ shadow_mesh = SubResource("ArrayMesh_3i3dd")
 [node name="testmap" type="Node3D"]
 process_mode = 3
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_mkkm5")
 
@@ -75,9 +78,6 @@ shape = SubResource("ConcavePolygonShape3D_tpvdw")
 material_override = ExtResource("1_sdwyy")
 mesh = SubResource("ArrayMesh_10mdg")
 skeleton = NodePath("")
-
-[node name="Root Player" parent="." instance=ExtResource("2_paiuo")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.02748, 0, 0.329966)
 
 [node name="Test Object Pick up" parent="." instance=ExtResource("3_8qwoe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72983, 0.644428, -1.21223)

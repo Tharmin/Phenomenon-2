@@ -26,7 +26,7 @@ func _input(event):
 
 
 func _process(delta):
-	if mouse_motion:
+	if mouse_motion: #this is where I didn't want to put a "not"
 		Camera = Vector2()
 	else:
 		mouse_motion = true #forces it to wait a frame before setting.
@@ -35,3 +35,7 @@ func _process(delta):
 	direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	if Input.is_action_just_pressed("ui_accept"):
 		jump.rpc()
+
+func pause():
+	Camera = Vector2()
+	direction = Vector2()

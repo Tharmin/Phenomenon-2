@@ -1,3 +1,5 @@
+Camera3D
+BaseItem
 ColorRect
 VBoxContainer
 Button
@@ -11,5 +13,3 @@ Label3D
 Label
 TextureRect
 GPUParticles3D
-CPUParticles3D
-OmniLight3D

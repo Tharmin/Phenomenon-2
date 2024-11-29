@@ -12,6 +12,6 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if is_colliding():
-		RootPlayer.get_child(3).get_child(0).get_child(0).text =  str(get_collider().item_scene)
+		RootPlayer.get_child(5).get_child(0).get_child(0).text =  str(get_collider().item_scene)
 	else:
-		RootPlayer.get_child(3).get_child(0).get_child(0).text = ""
+		RootPlayer.get_child(5).get_child(0).get_child(0).text = ""

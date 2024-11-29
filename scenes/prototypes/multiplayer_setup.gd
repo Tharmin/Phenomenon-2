@@ -1,35 +1,45 @@
-extends Control
+extends Node
+
+var peer = ENetMultiplayerPeer.new()
 @export var PORT : int = 3621
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
+@export var PlayerScene: PackedScene
 
 
-
-func _on_host_pressed():
-	var peer = ENetMultiplayerPeer.new()
+func host():
 	peer.create_server(PORT)
 	if peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
 		OS.alert("Failed to start multiplayer server.")
 		return
 	multiplayer.multiplayer_peer = peer
+	multiplayer.peer_connected.connect(connectPlayer)
+	multiplayer.peer_disconnected.connect(removePlayer)
+	connectPlayer()
 	start_game(true)
 
-func _on_join_pressed():
-	var txt : String = $"IP Line".text
+func join():
+	var txt : String = $"Multiplayer setup/IP Line".text
 	if txt == "":
-		txt = "127.0.0.1"
-	var peer = ENetMultiplayerPeer.new()
+		txt = "localhost"
+	
 	peer.create_client(txt, PORT)
 	if peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
 		OS.alert("Failed to start multiplayer client.")
 		return
 	multiplayer.multiplayer_peer = peer
-	start_game(false)
 	
+	start_game(false)
 
 func start_game(host : bool):
-	visible = false
-	
-	queue_free()
+	$"Multiplayer setup".visible = false
+	$"Multiplayer setup".queue_free()
+
+
+
+func connectPlayer(id : int = 1):
+	print("we got a friend! :", id)
+	var player = PlayerScene.instantiate()
+	player.name = str(id)
+	$Players.call_deferred("add_child", player)
+
+func removePlayer(id : int = 1):
+	print("No more friend :(", id)

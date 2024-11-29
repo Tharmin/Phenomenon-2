@@ -1,12 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://di5bytlx206y8"]
+[gd_scene load_steps=5 format=3 uid="uid://di5bytlx206y8"]
 
 [ext_resource type="Script" path="res://scenes/prototypes/multiplayer_setup.gd" id="1_kuffa"]
+[ext_resource type="Theme" uid="uid://bc06ccxcmsxla" path="res://assets/base.theme" id="2_0w1dg"]
+[ext_resource type="PackedScene" uid="uid://cp6elqppo7pv2" path="res://scenes/player/player.tscn" id="2_prpob"]
+[ext_resource type="PackedScene" uid="uid://c0dkbp4v5r6h2" path="res://assets/dev/TestMap/testmap.tscn" id="3_2y1hp"]
 
 [node name="God" type="Node"]
 process_mode = 3
+script = ExtResource("1_kuffa")
+PlayerScene = ExtResource("2_prpob")
 
 [node name="Player Spawner" type="MultiplayerSpawner" parent="."]
-spawn_path = NodePath("../Players")
+_spawnable_scenes = PackedStringArray("res://scenes/player/player.tscn")
+spawn_path = NodePath("..")
 
 [node name="Map Spawner" type="MultiplayerSpawner" parent="."]
 spawn_path = NodePath("../Main game")
@@ -15,21 +21,26 @@ spawn_path = NodePath("../Main game")
 
 [node name="Main game" type="Node3D" parent="."]
 
+[node name="testmap" parent="Main game" instance=ExtResource("3_2y1hp")]
+
+[node name="Camera3D" type="Camera3D" parent="Main game"]
+transform = Transform3D(-4.10886e-08, -0.341184, 0.939997, -1.49136e-08, 0.939997, 0.341184, -1, -8.88178e-16, -4.37114e-08, 10.242, 5.48729, -1.90735e-06)
+
 [node name="Multiplayer setup" type="VBoxContainer" parent="."]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -96.0
-offset_top = -33.0
-offset_right = 96.0
-offset_bottom = 33.0
+offset_left = -318.0
+offset_top = -36.0
+offset_right = 318.0
+offset_bottom = 36.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("1_kuffa")
+theme = ExtResource("2_0w1dg")
 
 [node name="IP Line" type="LineEdit" parent="Multiplayer setup"]
 layout_mode = 2
@@ -52,5 +63,5 @@ size_flags_horizontal = 3
 text = "Join Server
 "
 
-[connection signal="pressed" from="Multiplayer setup/buttons/host" to="Multiplayer setup" method="_on_host_pressed"]
-[connection signal="pressed" from="Multiplayer setup/buttons/join" to="Multiplayer setup" method="_on_join_pressed"]
+[connection signal="pressed" from="Multiplayer setup/buttons/host" to="." method="host"]
+[connection signal="pressed" from="Multiplayer setup/buttons/join" to="." method="join"]
