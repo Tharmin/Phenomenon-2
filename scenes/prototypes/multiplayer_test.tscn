@@ -12,7 +12,7 @@ PlayerScene = ExtResource("2_prpob")
 
 [node name="Player Spawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://scenes/player/player.tscn")
-spawn_path = NodePath("..")
+spawn_path = NodePath("../Players")
 
 [node name="Map Spawner" type="MultiplayerSpawner" parent="."]
 spawn_path = NodePath("../Main game")

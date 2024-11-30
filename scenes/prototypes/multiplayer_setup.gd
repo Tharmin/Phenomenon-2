@@ -26,8 +26,10 @@ func join():
 		OS.alert("Failed to start multiplayer client.")
 		return
 	multiplayer.multiplayer_peer = peer
+	multiplayer.server_disconnected.connect(serverClear)
 	
 	start_game(false)
+
 
 func start_game(host : bool):
 	$"Multiplayer setup".visible = false
@@ -43,3 +45,6 @@ func connectPlayer(id : int = 1):
 
 func removePlayer(id : int = 1):
 	print("No more friend :(", id)
+
+func serverClear():
+	print("The server disconnected oop")

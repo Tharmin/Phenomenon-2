@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732918340
+::res://::1732932951
 default_env.tres::Environment::6359479741939619641::1731983865::0::1::::<><>::
 desktop.ini::TextFile::-1::1731983865::0::1::::<><>::
 icon.svg::CompressedTexture2D::9162359761820003105::1731983866::1732405204::1::::<><>::
@@ -34,7 +34,7 @@ plugin.cfg::TextFile::-1::1731983864::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1731983864::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1731983864
 ::res://addons/godot-git-plugin/macos/::1731983864
-::res://addons/godot-git-plugin/win64/::1732918332
+::res://addons/godot-git-plugin/win64/::1732932943
 ::res://addons/godot-jolt/::1731983865
 godot-jolt.gdextension::GDExtension::-1::1731983865::0::1::::<><>::
 LICENSE.txt::TextFile::-1::1731983864::0::1::::<><>::
@@ -51,7 +51,7 @@ THIRDPARTY.txt::TextFile::-1::1731983864::0::1::::<><>::
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1731983865
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1731983865
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1731983865
-::res://addons/godot-jolt/windows/::1732918332
+::res://addons/godot-jolt/windows/::1732932943
 ::res://addons/HaSa1002.light-tools/::1732405205
 Light.png::CompressedTexture2D::8013172593678393849::1731983864::1732405205::1::::<><>::
 LightColor.gd::GDScript::-1::1731983864::0::1::::<>EditorInspectorPlugin<>::
@@ -75,23 +75,24 @@ steam-multiplayer-peer.gdextension::GDExtension::-1::1731983865::0::1::::<><>::
 ::res://addons/steam-multiplayer-peer/osx/::1731983865
 ::res://addons/steam-multiplayer-peer/osx/steam-multiplayer-peer.macos.template_debug.framework/::1731983865
 ::res://addons/steam-multiplayer-peer/osx/steam-multiplayer-peer.macos.template_release.framework/::1731983865
-::res://addons/steam-multiplayer-peer/windows/::1732918332
-::res://assets/::1732910684
+::res://addons/steam-multiplayer-peer/windows/::1732932943
+::res://assets/::1732931115
+base.theme::Theme::2580293753869073570::1732918813::0::1::::<><>::uid://c5s38hvhp5n7m::::res://assets/fonts/Jost-Medium.ttf
 crosshair.png::CompressedTexture2D::6989477346357015128::1731983865::1732405204::1::::<><>::
-Fresnel.tres::GradientTexture1D::6834767443298719803::1732902906::0::1::::<><>::
-Shading.tres::GradientTexture1D::5989935762492963701::1732902906::0::1::::<><>::
+Fresnel.tres::GradientTexture1D::6834767443298719803::1732931115::0::1::::<><>::
+Shading.tres::GradientTexture1D::5989935762492963701::1732931115::0::1::::<><>::
 ::res://assets/dev/::1731983865
 testmap.tscn::PackedScene::5556299427458278616::1731983865::0::1::::<><>::
 ::res://assets/dev/Prototype Matt/::1732405205
 Prototype Purple UwU.png::CompressedTexture2D::7612439556981562380::1731983865::1732405205::1::::<><>::
 Purple.tres::StandardMaterial3D::7687829759684453661::1731983865::0::1::::<><>::uid://dgpr1dao31v8g::::res://assets/dev/Prototype Matt/Prototype Purple UwU.png
 ::res://assets/dev/test items/::1731983865
-::res://assets/dev/test items/Pick up/::1732918128
+::res://assets/dev/test items/Pick up/::1732931259
 Test Object Pick up.gd::GDScript::-1::1731983865::0::1::::<>Node<>::
-test_object_pick_up.tscn::PackedScene::4816296242693481281::1732918128::0::1::::<><>::res://assets/dev/test items/Pick up/Test Object Pick up.gd
-::res://assets/dev/TestMap/::1732918128
+test_object_pick_up.tscn::PackedScene::4816296242693481281::1732931259::0::1::::<><>::res://assets/dev/test items/Pick up/Test Object Pick up.gd
+::res://assets/dev/TestMap/::1732931259
 TestMap.glb::PackedScene::8791347538444502507::1731983865::1732405208::1::::<><>::
-testmap.tscn::PackedScene::6534365380965279053::1732918128::0::1::::<><>::uid://dhsboyqd8swnl::::res://assets/dev/Prototype Matt/Purple.tres<>uid://cp6elqppo7pv2::::res://scenes/player/player.tscn<>uid://cavbxv64q4fsb::::res://assets/dev/test items/Pick up/test_object_pick_up.tscn
+testmap.tscn::PackedScene::6534365380965279053::1732931259::0::1::::<><>::uid://dhsboyqd8swnl::::res://assets/dev/Prototype Matt/Purple.tres<>uid://cavbxv64q4fsb::::res://assets/dev/test items/Pick up/test_object_pick_up.tscn
 ::res://assets/fonts/::1732904877
 Boycott Read me.txt::TextFile::-1::1732904534::0::1::::<><>::
 BOYCOTT_.TTF::FontFile::455355253336167280::1732904509::1732904510::1::::<><>::
@@ -99,7 +100,7 @@ Jost README.txt::TextFile::-1::1732904877::0::1::::<><>::
 Jost-Medium.ttf::FontFile::6917424883540204160::1732904869::1732904869::1::::<><>::
 ::res://assets/OG assets/::1732911141
 icon.png::CompressedTexture2D::4749897325912771467::1732405181::1732910685::1::::<><>::
-::res://assets/OG assets/Player/::1732918129
+::res://assets/OG assets/Player/::1732931260
 camera_3d.gd::GDScript::-1::1731983865::0::1::::<>Camera3D<>::
 KeithHopperWinterSuit2.fbx::PackedScene::1637925450507986441::1731983865::1732405208::1::::<><>::uid://dak0e6bvw4y8v::::res://assets/OG assets/Player/KeithHopperWinterSuit2_0.png<>uid://dgrmjd2lue402::::res://assets/OG assets/Player/KeithHopperWinterSuit2_1.png<>uid://vnbr5dcjjix::::res://assets/OG assets/Player/KeithHopperWinterSuit2_19.png<>uid://bu4rtv360n7xi::::res://assets/OG assets/Player/KeithHopperWinterSuit2_20.png<>uid://bs372f6nuh2g7::::res://assets/OG assets/Player/KeithHopperWinterSuit2_21.png<>uid://buvxswehu34xi::::res://assets/OG assets/Player/KeithHopperWinterSuit2_22.png<>uid://dcx85fmej47cp::::res://assets/OG assets/Player/KeithHopperWinterSuit2_2.png<>uid://bmjccirfegfdu::::res://assets/OG assets/Player/KeithHopperWinterSuit2_3.png<>uid://ccvsyh1c2b4et::::res://assets/OG assets/Player/KeithHopperWinterSuit2_4.png<>uid://cp5jm7h04klm6::::res://assets/OG assets/Player/KeithHopperWinterSuit2_5.png<>uid://xr62ejyrbkf4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_6.png<>uid://c4vnwjyeg1cem::::res://assets/OG assets/Player/KeithHopperWinterSuit2_7.png<>uid://brdodgsywk1ee::::res://assets/OG assets/Player/KeithHopperWinterSuit2_8.png<>uid://dys56hkut3j60::::res://assets/OG assets/Player/KeithHopperWinterSuit2_9.png<>uid://p60a2gth0et4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_10.png<>uid://djjp557y1cgiy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_11.png<>uid://6cigb8pbd4e0::::res://assets/OG assets/Player/KeithHopperWinterSuit2_12.png<>uid://csvwurjptwjha::::res://assets/OG assets/Player/KeithHopperWinterSuit2_13.png<>uid://bkis4v3q0yboy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_14.png<>uid://xfoxxl5fb2jx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png<>uid://b6y1llwti4dct::::res://assets/OG assets/Player/KeithHopperWinterSuit2_16.png<>uid://xv4itiraqfcx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_17.png<>uid://b4usavfc76swl::::res://assets/OG assets/Player/KeithHopperWinterSuit2_18.png
 KeithHopperWinterSuit2_0.png::CompressedTexture2D::7181432527368052991::1732405206::1732405211::1::::<><>::
@@ -125,14 +126,14 @@ KeithHopperWinterSuit2_19.png::CompressedTexture2D::44143978915552531::173198386
 KeithHopperWinterSuit2_20.png::CompressedTexture2D::3851131777970037102::1732405207::1732405211::1::::<><>::
 KeithHopperWinterSuit2_21.png::CompressedTexture2D::3709613917618698160::1731983865::1732405205::1::::<><>::
 KeithHopperWinterSuit2_22.png::CompressedTexture2D::3834979286451751178::1731983865::1732405205::1::::<><>::
-menu.tscn::PackedScene::6937846116796629456::1732918129::0::1::::<><>::res://assets/OG assets/Player/omni_light_3d.gd<>uid://dcx85fmej47cp::::res://assets/OG assets/Player/KeithHopperWinterSuit2_2.png<>uid://bmjccirfegfdu::::res://assets/OG assets/Player/KeithHopperWinterSuit2_3.png<>uid://ccvsyh1c2b4et::::res://assets/OG assets/Player/KeithHopperWinterSuit2_4.png<>uid://cp5jm7h04klm6::::res://assets/OG assets/Player/KeithHopperWinterSuit2_5.png<>uid://xr62ejyrbkf4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_6.png<>uid://c4vnwjyeg1cem::::res://assets/OG assets/Player/KeithHopperWinterSuit2_7.png<>uid://brdodgsywk1ee::::res://assets/OG assets/Player/KeithHopperWinterSuit2_8.png<>uid://dys56hkut3j60::::res://assets/OG assets/Player/KeithHopperWinterSuit2_9.png<>uid://p60a2gth0et4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_10.png<>uid://xv4itiraqfcx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_17.png<>uid://djjp557y1cgiy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_11.png<>uid://b6y1llwti4dct::::res://assets/OG assets/Player/KeithHopperWinterSuit2_16.png<>uid://b4usavfc76swl::::res://assets/OG assets/Player/KeithHopperWinterSuit2_18.png<>uid://6cigb8pbd4e0::::res://assets/OG assets/Player/KeithHopperWinterSuit2_12.png<>uid://csvwurjptwjha::::res://assets/OG assets/Player/KeithHopperWinterSuit2_13.png<>uid://bkis4v3q0yboy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_14.png<>uid://xfoxxl5fb2jx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png<>uid://c0bnjd04ywvre::::res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material<>uid://vnbr5dcjjix::::res://assets/OG assets/Player/KeithHopperWinterSuit2_19.png<>res://scenes/player/Shader types/Cell.gdshader<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres<>uid://dcxadfgh4gpkb::::res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png<>uid://bkol81sinem2o::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.png<>uid://bnkwxgkbbvho6::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.material<>uid://bs372f6nuh2g7::::res://assets/OG assets/Player/KeithHopperWinterSuit2_21.png<>uid://bwe6vs63hgkas::::res://assets/OG assets/Player/Textures & Materials/Cat/Cat.material<>uid://buvxswehu34xi::::res://assets/OG assets/Player/KeithHopperWinterSuit2_22.png<>uid://ehinfv2ufiey::::res://assets/OG assets/Player/Textures & Materials/Dog/Dog.material<>uid://cxml4avjlvjh2::::res://assets/OG assets/Player/Textures & Materials/Mouse/Mouse.material<>uid://dukun77oekka2::::res://assets/OG assets/Player/Textures & Materials/Hare/Hare.material<>uid://c1bsx5rx5w34::::res://assets/OG assets/Player/Textures & Materials/Raccoon/Raccoon.material<>uid://dnq564lpoppwf::::res://assets/OG assets/Player/Textures & Materials/Body/Body.material<>uid://00p6cq1vd5vw::::res://assets/OG assets/Player/Textures & Materials/Body/Body.png<>uid://dgrmjd2lue402::::res://assets/OG assets/Player/KeithHopperWinterSuit2_1.png<>uid://qonfkqtqb0ty::::res://assets/OG assets/Room/Red.png<>uid://cwwxacjxdkun6::::res://assets/OG assets/Room/Blank.png<>res://assets/OG assets/Player/camera_3d.gd<>uid://443y4cdxa62o::::res://assets/OG assets/Room/Floor.png<>uid://gqtvtqfpr7gm::::res://assets/fonts/BOYCOTT_.TTF
+menu.tscn::PackedScene::6937846116796629456::1732931260::0::1::::<><>::res://assets/OG assets/Player/omni_light_3d.gd<>uid://dcx85fmej47cp::::res://assets/OG assets/Player/KeithHopperWinterSuit2_2.png<>uid://bmjccirfegfdu::::res://assets/OG assets/Player/KeithHopperWinterSuit2_3.png<>uid://ccvsyh1c2b4et::::res://assets/OG assets/Player/KeithHopperWinterSuit2_4.png<>uid://cp5jm7h04klm6::::res://assets/OG assets/Player/KeithHopperWinterSuit2_5.png<>uid://xr62ejyrbkf4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_6.png<>uid://c4vnwjyeg1cem::::res://assets/OG assets/Player/KeithHopperWinterSuit2_7.png<>uid://brdodgsywk1ee::::res://assets/OG assets/Player/KeithHopperWinterSuit2_8.png<>uid://dys56hkut3j60::::res://assets/OG assets/Player/KeithHopperWinterSuit2_9.png<>uid://p60a2gth0et4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_10.png<>uid://xv4itiraqfcx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_17.png<>uid://djjp557y1cgiy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_11.png<>uid://b6y1llwti4dct::::res://assets/OG assets/Player/KeithHopperWinterSuit2_16.png<>uid://b4usavfc76swl::::res://assets/OG assets/Player/KeithHopperWinterSuit2_18.png<>uid://6cigb8pbd4e0::::res://assets/OG assets/Player/KeithHopperWinterSuit2_12.png<>uid://csvwurjptwjha::::res://assets/OG assets/Player/KeithHopperWinterSuit2_13.png<>uid://bkis4v3q0yboy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_14.png<>uid://xfoxxl5fb2jx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png<>uid://c0bnjd04ywvre::::res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material<>uid://vnbr5dcjjix::::res://assets/OG assets/Player/KeithHopperWinterSuit2_19.png<>res://scenes/player/Shader types/Cell.gdshader<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres<>uid://dcxadfgh4gpkb::::res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png<>uid://bkol81sinem2o::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.png<>uid://bnkwxgkbbvho6::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.material<>uid://bs372f6nuh2g7::::res://assets/OG assets/Player/KeithHopperWinterSuit2_21.png<>uid://bwe6vs63hgkas::::res://assets/OG assets/Player/Textures & Materials/Cat/Cat.material<>uid://buvxswehu34xi::::res://assets/OG assets/Player/KeithHopperWinterSuit2_22.png<>uid://ehinfv2ufiey::::res://assets/OG assets/Player/Textures & Materials/Dog/Dog.material<>uid://cxml4avjlvjh2::::res://assets/OG assets/Player/Textures & Materials/Mouse/Mouse.material<>uid://dukun77oekka2::::res://assets/OG assets/Player/Textures & Materials/Hare/Hare.material<>uid://c1bsx5rx5w34::::res://assets/OG assets/Player/Textures & Materials/Raccoon/Raccoon.material<>uid://dnq564lpoppwf::::res://assets/OG assets/Player/Textures & Materials/Body/Body.material<>uid://00p6cq1vd5vw::::res://assets/OG assets/Player/Textures & Materials/Body/Body.png<>uid://dgrmjd2lue402::::res://assets/OG assets/Player/KeithHopperWinterSuit2_1.png<>uid://qonfkqtqb0ty::::res://assets/OG assets/Room/Red.png<>uid://cwwxacjxdkun6::::res://assets/OG assets/Room/Blank.png<>res://assets/OG assets/Player/camera_3d.gd<>uid://443y4cdxa62o::::res://assets/OG assets/Room/Floor.png<>uid://gqtvtqfpr7gm::::res://assets/fonts/BOYCOTT_.TTF
 omni_light_3d.gd::GDScript::-1::1731983865::0::1::::<>OmniLight3D<>::
 player.tscn::PackedScene::376987331624676226::1731983865::0::1::::<><>::uid://00p6cq1vd5vw::::res://assets/OG assets/Player/Textures & Materials/Body/Body.png<>uid://dgrmjd2lue402::::res://assets/OG assets/Player/KeithHopperWinterSuit2_1.png<>uid://vnbr5dcjjix::::res://assets/OG assets/Player/KeithHopperWinterSuit2_19.png<>uid://bkol81sinem2o::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.png<>uid://bs372f6nuh2g7::::res://assets/OG assets/Player/KeithHopperWinterSuit2_21.png<>uid://buvxswehu34xi::::res://assets/OG assets/Player/KeithHopperWinterSuit2_22.png<>uid://dcx85fmej47cp::::res://assets/OG assets/Player/KeithHopperWinterSuit2_2.png<>uid://bmjccirfegfdu::::res://assets/OG assets/Player/KeithHopperWinterSuit2_3.png<>uid://ccvsyh1c2b4et::::res://assets/OG assets/Player/KeithHopperWinterSuit2_4.png<>uid://cp5jm7h04klm6::::res://assets/OG assets/Player/KeithHopperWinterSuit2_5.png<>uid://xr62ejyrbkf4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_6.png<>uid://c4vnwjyeg1cem::::res://assets/OG assets/Player/KeithHopperWinterSuit2_7.png<>uid://brdodgsywk1ee::::res://assets/OG assets/Player/KeithHopperWinterSuit2_8.png<>uid://dys56hkut3j60::::res://assets/OG assets/Player/KeithHopperWinterSuit2_9.png<>uid://p60a2gth0et4::::res://assets/OG assets/Player/KeithHopperWinterSuit2_10.png<>uid://djjp557y1cgiy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_11.png<>uid://6cigb8pbd4e0::::res://assets/OG assets/Player/KeithHopperWinterSuit2_12.png<>uid://csvwurjptwjha::::res://assets/OG assets/Player/KeithHopperWinterSuit2_13.png<>uid://bkis4v3q0yboy::::res://assets/OG assets/Player/KeithHopperWinterSuit2_14.png<>uid://c0bnjd04ywvre::::res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material<>uid://xfoxxl5fb2jx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png<>uid://bnkwxgkbbvho6::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.material<>res://scenes/player/Shader types/Cell.gdshader<>uid://bwe6vs63hgkas::::res://assets/OG assets/Player/Textures & Materials/Cat/Cat.material<>uid://b6y1llwti4dct::::res://assets/OG assets/Player/KeithHopperWinterSuit2_16.png<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres<>uid://xv4itiraqfcx::::res://assets/OG assets/Player/KeithHopperWinterSuit2_17.png<>uid://dcxadfgh4gpkb::::res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png<>uid://b4usavfc76swl::::res://assets/OG assets/Player/KeithHopperWinterSuit2_18.png<>uid://ehinfv2ufiey::::res://assets/OG assets/Player/Textures & Materials/Dog/Dog.material<>uid://dnq564lpoppwf::::res://assets/OG assets/Player/Textures & Materials/Body/Body.material<>uid://cxml4avjlvjh2::::res://assets/OG assets/Player/Textures & Materials/Mouse/Mouse.material<>uid://dukun77oekka2::::res://assets/OG assets/Player/Textures & Materials/Hare/Hare.material<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c1bsx5rx5w34::::res://assets/OG assets/Player/Textures & Materials/Raccoon/Raccoon.material
 ::res://assets/OG assets/Player/Textures & Materials/::1731983865
-::res://assets/OG assets/Player/Textures & Materials/Body/::1732902906
-Body.material::ShaderMaterial::8106625472703576741::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://00p6cq1vd5vw::::res://assets/OG assets/Player/Textures & Materials/Body/Body.png<>uid://crltmqdmreogb::::res://assets/Shading.tres
+::res://assets/OG assets/Player/Textures & Materials/Body/::1732931115
+Body.material::ShaderMaterial::8106625472703576741::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://00p6cq1vd5vw::::res://assets/OG assets/Player/Textures & Materials/Body/Body.png<>uid://crltmqdmreogb::::res://assets/Shading.tres
 Body.png::CompressedTexture2D::1807296780277961088::1731983865::1732405205::1::::<><>::
-::res://assets/OG assets/Player/Textures & Materials/Cat/::1732902906
+::res://assets/OG assets/Player/Textures & Materials/Cat/::1732931115
 BR_SRTHeadBlanky.png::CompressedTexture2D::6833660123701118552::1731983865::1732405205::1::::<><>::
 BR_SRTHeadIamOUTofNAMES.png::CompressedTexture2D::7990698797762376942::1731983865::1732405205::1::::<><>::
 BR_SRTHeadJackson.png::CompressedTexture2D::5241681793382952495::1731983865::1732405205::1::::<><>::
@@ -140,33 +141,33 @@ BR_SRTHeadRainer.png::CompressedTexture2D::286592016418101198::1731983865::17324
 BR_SRTHeadScourge.png::CompressedTexture2D::72747116420408563::1731983865::1732405205::1::::<><>::
 BR_SRTHeadSimon.png::CompressedTexture2D::7347126056323089905::1731983865::1732405205::1::::<><>::
 BR_SRTHeadTom.png::CompressedTexture2D::1409608023991020545::1731983865::1732405205::1::::<><>::
-Cat.material::ShaderMaterial::3940753477784848922::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://dcxadfgh4gpkb::::res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
-::res://assets/OG assets/Player/Textures & Materials/Dog/::1732902906
+Cat.material::ShaderMaterial::3940753477784848922::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://dcxadfgh4gpkb::::res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+::res://assets/OG assets/Player/Textures & Materials/Dog/::1732931115
 BR_SRTHeadHazel.png::CompressedTexture2D::7751677730216034617::1731983865::1732405205::1::::<><>::
 BR_SRTHeadMax.png::CompressedTexture2D::6507757588196435547::1731983865::1732405205::1::::<><>::
 BR_SRTHeadNate.png::CompressedTexture2D::4286531115117508340::1731983865::1732405205::1::::<><>::
 BR_SRTHeadShepherd.png::CompressedTexture2D::6609253431625663094::1731983865::1732405205::1::::<><>::
-Dog.material::ShaderMaterial::295715266404775880::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://b2cosnvfvscfc::::res://assets/OG assets/Player/Textures & Materials/Dog/BR_SRTHeadNate.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
-::res://assets/OG assets/Player/Textures & Materials/Fox/::1732902906
+Dog.material::ShaderMaterial::295715266404775880::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://b2cosnvfvscfc::::res://assets/OG assets/Player/Textures & Materials/Dog/BR_SRTHeadNate.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+::res://assets/OG assets/Player/Textures & Materials/Fox/::1732931115
 BR_SRTHeadNotRed.png::CompressedTexture2D::2014540413588956306::1731983865::1732405205::1::::<><>::
 BR_SRTHeadRed.png::CompressedTexture2D::814232242250507804::1731983865::1732405205::1::::<><>::
-Fox.material::ShaderMaterial::6530432426682929322::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://luojyxwmojno::::res://assets/OG assets/Player/Textures & Materials/Fox/BR_SRTHeadRed.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
-::res://assets/OG assets/Player/Textures & Materials/Hare/::1732902906
+Fox.material::ShaderMaterial::6530432426682929322::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://luojyxwmojno::::res://assets/OG assets/Player/Textures & Materials/Fox/BR_SRTHeadRed.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+::res://assets/OG assets/Player/Textures & Materials/Hare/::1732931115
 BR_SRTHeadCellar.png::CompressedTexture2D::8664303447211729585::1731983865::1732405205::1::::<><>::
 BR_SRTHeadCellarN.png::CompressedTexture2D::318603421606302441::1731983865::1732405205::1::::<><>::
 BR_SRTHeadMixOfRedAndOrangeAndBlack.png::CompressedTexture2D::1579330257401651061::1731983865::1732405205::1::::<><>::
 BR_SRTHeadRenie.png::CompressedTexture2D::4371356208495343415::1731983865::1732405205::1::::<><>::
 BR_SRTHeadTurner.png::CompressedTexture2D::7058076668399674123::1731983865::1732405205::1::::<><>::
-Hare.material::ShaderMaterial::8584921987379433363::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://b3jrulnmilk8v::::res://assets/OG assets/Player/Textures & Materials/Hare/BR_SRTHeadRenie.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
-::res://assets/OG assets/Player/Textures & Materials/Hazard/::1732902906
-Hazard.material::ShaderMaterial::3320896606264545391::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://bkol81sinem2o::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+Hare.material::ShaderMaterial::8584921987379433363::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://b3jrulnmilk8v::::res://assets/OG assets/Player/Textures & Materials/Hare/BR_SRTHeadRenie.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+::res://assets/OG assets/Player/Textures & Materials/Hazard/::1732931115
+Hazard.material::ShaderMaterial::3320896606264545391::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://bkol81sinem2o::::res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
 Hazard.png::CompressedTexture2D::3117938620544165444::1731983865::1732405206::1::::<><>::
-::res://assets/OG assets/Player/Textures & Materials/Mouse/::1732902906
+::res://assets/OG assets/Player/Textures & Materials/Mouse/::1732931115
 BR_SRTHeadRenie 1.png::CompressedTexture2D::1125677339548352448::1731983865::1732405206::1::::<><>::
-Mouse.material::ShaderMaterial::6412677011918684645::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://qbj0g72b8s85::::res://assets/OG assets/Player/Textures & Materials/Mouse/BR_SRTHeadRenie 1.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
-::res://assets/OG assets/Player/Textures & Materials/Raccoon/::1732902906
+Mouse.material::ShaderMaterial::6412677011918684645::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://qbj0g72b8s85::::res://assets/OG assets/Player/Textures & Materials/Mouse/BR_SRTHeadRenie 1.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+::res://assets/OG assets/Player/Textures & Materials/Raccoon/::1732931115
 BR_SRTHeadRyne.png::CompressedTexture2D::6779738124263067670::1731983865::1732405206::1::::<><>::
-Raccoon.material::ShaderMaterial::194145625350202797::1732902906::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://c3ufkcux48ydy::::res://assets/OG assets/Player/Textures & Materials/Raccoon/BR_SRTHeadRyne.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
+Raccoon.material::ShaderMaterial::194145625350202797::1732931115::0::1::::<><>::res://scenes/player/Shader types/Cell.gdshader<>uid://c3ufkcux48ydy::::res://assets/OG assets/Player/Textures & Materials/Raccoon/BR_SRTHeadRyne.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>uid://c4m2veenpvm0b::::res://assets/Fresnel.tres
 ::res://assets/OG assets/Player/Textures & Materials/Zlegacy/::1732405206
 BR_SRTHead.png::CompressedTexture2D::7371544947821039738::1731983865::1732405205::1::::<><>::
 BR_SRTHeadFlare.png::CompressedTexture2D::1975568593556446221::1731983865::1732405206::1::::<><>::
@@ -198,23 +199,23 @@ BadFlashlight.tscn::PackedScene::8074650288625592552::1731983866::0::1::::<><>::
 BaseConeLight.tscn::PackedScene::4480002375410524380::1731983866::0::1::::<><>::res://scenes/items/resources/light_toggle.gd
 BaseItem.gd::GDScript::-1::1731983866::0::1::::BaseItem<>Node<>::
 light_toggle.gd::GDScript::-1::1731983866::0::1::::<>SpotLight3D<>::
-::res://scenes/player/::1732918128
+::res://scenes/player/::1732931259
 AnimationPlaceholderNode.gd::GDScript::-1::1731983866::0::1::::<>RefCounted<>::
 BasicFlashlight.gd::GDScript::-1::1731983866::0::1::::<>SpotLight3D<>::
-flashlight.tscn::PackedScene::8618597012834787739::1732918128::0::1::::<><>::res://scenes/player/BasicFlashlight.gd<>res://scenes/player/Glowstick.gd
+flashlight.tscn::PackedScene::8618597012834787739::1732931259::0::1::::<><>::res://scenes/player/BasicFlashlight.gd<>res://scenes/player/Glowstick.gd
 Glowstick.gd::GDScript::-1::1731983866::0::1::::<>OmniLight3D<>::
-gui.gd::GDScript::-1::1732910414::0::1::::<>Control<>::
+gui.gd::GDScript::-1::1732921057::0::1::::<>Control<>::
 inputScript.gd::GDScript::-1::1732912851::0::1::::<>MultiplayerSynchronizer<>::
 InventoryManager.gd::GDScript::-1::1731983866::0::1::::<>Node<>::
 Label.gd::GDScript::-1::1732903175::0::1::::<>Label<>::
 Look Script.gd::GDScript::-1::1732910171::0::1::::<>Node3D<>::
-player.gd::GDScript::-1::1732910232::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::5889933108283745057::1732918128::0::1::::<><>::res://scenes/player/player.gd<>res://scenes/player/Look Script.gd<>res://scenes/player/InventoryManager.gd<>res://scenes/player/RayCast3D.gd<>res://scenes/player/Shader types/Cell.gdshader<>uid://c6t0w2l7b1ip1::::res://assets/crosshair.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>res://scenes/player/gui.gd<>res://scenes/player/inputScript.gd<>uid://c5s38hvhp5n7m::::res://assets/fonts/Jost-Medium.ttf<>res://scenes/player/Settings box.gd
+player.gd::GDScript::-1::1732921226::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::5889933108283745057::1732931259::0::1::::<><>::res://scenes/player/player.gd<>res://scenes/player/Look Script.gd<>res://scenes/player/InventoryManager.gd<>res://scenes/player/RayCast3D.gd<>res://scenes/player/Shader types/Cell.gdshader<>uid://c6t0w2l7b1ip1::::res://assets/crosshair.png<>uid://crltmqdmreogb::::res://assets/Shading.tres<>res://scenes/player/gui.gd<>uid://bc06ccxcmsxla::::res://assets/base.theme<>res://scenes/player/inputScript.gd<>res://scenes/player/Settings box.gd
 RayCast3D.gd::GDScript::-1::1732910171::0::1::::<>RayCast3D<>::
 Settings box.gd::GDScript::-1::1732906384::0::1::::<>VBoxContainer<>::
-::res://scenes/player/Shader types/::1732918312
-Cell.gdshader::Shader::-1::1732918312::0::1::::<><>::
-hatch.gdshader::Shader::-1::1732918312::0::1::::<><>::
-::res://scenes/prototypes/::1732918129
-multiplayer_setup.gd::GDScript::-1::1732918103::0::1::::<>Node<>::
-multiplayer_test.tscn::PackedScene::7782808724870455909::1732918129::0::1::::<><>::res://scenes/prototypes/multiplayer_setup.gd
+::res://scenes/player/Shader types/::1732931477
+Cell.gdshader::Shader::-1::1732931477::0::1::::<><>::
+hatch.gdshader::Shader::-1::1732931477::0::1::::<><>::
+::res://scenes/prototypes/::1732931259
+multiplayer_setup.gd::GDScript::-1::1732930703::0::1::::<>Node<>::
+multiplayer_test.tscn::PackedScene::7782808724870455909::1732931259::0::1::::<><>::res://scenes/prototypes/multiplayer_setup.gd<>uid://bc06ccxcmsxla::::res://assets/base.theme<>uid://cp6elqppo7pv2::::res://scenes/player/player.tscn<>uid://c0dkbp4v5r6h2::::res://assets/dev/TestMap/testmap.tscn
