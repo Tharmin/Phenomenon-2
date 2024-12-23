@@ -11,7 +11,8 @@ var mouse_motion = true #this is the inverse of it's name
 
 func _ready():
 	# Only process for the local player.
-	set_process(get_multiplayer_authority() == multiplayer.get_unique_id())
+	set_process(int(str(get_parent().name)) == multiplayer.get_unique_id())
+	print(process_mode)
 
 
 @rpc("call_local")

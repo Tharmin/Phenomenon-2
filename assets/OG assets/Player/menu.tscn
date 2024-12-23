@@ -20,7 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://xfoxxl5fb2jx" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png" id="17_c8jgg"]
 [ext_resource type="Material" uid="uid://c0bnjd04ywvre" path="res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material" id="18_no1c1"]
 [ext_resource type="Texture2D" uid="uid://vnbr5dcjjix" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_19.png" id="19_3nwg8"]
-[ext_resource type="Shader" path="res://scenes/player/Shader types/Cell.gdshader" id="20_12c4e"]
+[ext_resource type="Shader" path="res://scenes/player/Shader types/hatch.gdshader" id="20_12c4e"]
 [ext_resource type="Texture2D" uid="uid://crltmqdmreogb" path="res://assets/Shading.tres" id="21_1pq2q"]
 [ext_resource type="Texture2D" uid="uid://c4m2veenpvm0b" path="res://assets/Fresnel.tres" id="22_m3dr5"]
 [ext_resource type="Texture2D" uid="uid://dcxadfgh4gpkb" path="res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png" id="23_n8k7q"]

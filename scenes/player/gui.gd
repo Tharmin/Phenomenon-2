@@ -2,6 +2,7 @@ extends Control
 
 
 func _ready():
+	set_multiplayer_authority(int(str(get_parent().name)))
 	print("from ready: ", get_multiplayer_authority(), ": ", multiplayer.get_unique_id())
 	if get_multiplayer_authority() == multiplayer.get_unique_id():
 		visible = true
