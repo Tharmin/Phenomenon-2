@@ -1,10 +1,3 @@
-res://scenes/player/flashlight.tscn
 res://assets/Shading.tres
 res://scenes/player/Shader types/hatch.gdshader
-res://assets/dev/TestMap/testmap.tscn
-res://assets/dev/test items/Pick up/test_object_pick_up.tscn
-res://scenes/prototypes/multiplayer_test.tscn
-res://scenes/player/player.gd
-res://scenes/player/player.tscn
-res://scenes/player/inputScript.gd
-res://scenes/player/gui.gd
+res://addons/BugReporter/reporters/reporter.gd

@@ -1,0 +1,84 @@
+[gd_scene load_steps=4 format=3 uid="uid://crhm1uuq52v35"]
+
+[ext_resource type="Theme" uid="uid://bc06ccxcmsxla" path="res://assets/base.theme" id="1_1nkbc"]
+
+[sub_resource type="Gradient" id="Gradient_pphex"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_a7o14"]
+gradient = SubResource("Gradient_pphex")
+width = 128
+
+[node name="Lobby" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 128.0
+offset_bottom = 128.0
+texture = SubResource("GradientTexture1D_a7o14")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0109375
+anchor_top = 0.564815
+anchor_right = 0.361979
+anchor_bottom = 0.974074
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Ready" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+
+[node name="Ready" type="Button" parent="VBoxContainer/Ready"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -300.0
+offset_top = -66.0
+offset_right = 300.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 3
+theme = ExtResource("1_1nkbc")
+text = "Unready"
+
+[node name="Invite" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_1nkbc")
+theme_override_font_sizes/font_size = 50
+text = "Invite Friends"
+
+[node name="Test" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_1nkbc")
+theme_override_font_sizes/font_size = 50
+text = "UwU"
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_1nkbc")
+theme_override_font_sizes/font_size = 50
+text = "Room settings"
+
+[node name="Disconnect" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_1nkbc")
+theme_override_font_sizes/font_size = 50
+text = "Disconnect
+"

@@ -22,7 +22,7 @@
 [ext_resource type="Material" uid="uid://c0bnjd04ywvre" path="res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material" id="19_uvsl7"]
 [ext_resource type="Texture2D" uid="uid://xfoxxl5fb2jx" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png" id="20_0if5o"]
 [ext_resource type="Material" uid="uid://bnkwxgkbbvho6" path="res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.material" id="20_pm1et"]
-[ext_resource type="Shader" path="res://scenes/player/Shader types/Cell.gdshader" id="21_5etqm"]
+[ext_resource type="Shader" uid="uid://dvdgkrovmyjry" path="res://scenes/player/Shader types/Cell.gdshader" id="21_5etqm"]
 [ext_resource type="Material" uid="uid://bwe6vs63hgkas" path="res://assets/OG assets/Player/Textures & Materials/Cat/Cat.material" id="21_2435g"]
 [ext_resource type="Texture2D" uid="uid://b6y1llwti4dct" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_16.png" id="21_okfly"]
 [ext_resource type="Texture2D" uid="uid://c4m2veenpvm0b" path="res://assets/Fresnel.tres" id="21_r3yae"]
@@ -3420,14 +3420,14 @@ bind/51/pose = Transform3D(-1.99507e-09, -0.133963, -0.0194466, -0.135368, 9.743
 render_priority = 0
 shader = ExtResource("21_5etqm")
 shader_parameter/albedo = Color(1, 1, 1, 1)
-shader_parameter/point_size = null
-shader_parameter/roughness = null
-shader_parameter/metallic_texture_channel = null
-shader_parameter/specular = null
-shader_parameter/metallic = null
-shader_parameter/normal_scale = null
-shader_parameter/opacity = 1.0
 shader_parameter/texture_albedo = ExtResource("22_f85io")
+shader_parameter/point_size = 0.0
+shader_parameter/roughness = 0.0
+shader_parameter/metallic_texture_channel = Vector4(0, 0, 0, 0)
+shader_parameter/specular = 0.0
+shader_parameter/metallic = 0.0
+shader_parameter/normal_scale = 0.0
+shader_parameter/opacity = 1.0
 shader_parameter/color_gradient = ExtResource("27_yv8kr")
 shader_parameter/fresnel_gradient = ExtResource("21_r3yae")
 
@@ -6187,14 +6187,14 @@ gradient = SubResource("Gradient_gjyvn")
 render_priority = 0
 shader = ExtResource("21_5etqm")
 shader_parameter/albedo = Color(1, 1, 1, 1)
-shader_parameter/point_size = null
-shader_parameter/roughness = null
-shader_parameter/metallic_texture_channel = null
-shader_parameter/specular = null
-shader_parameter/metallic = 1.08
-shader_parameter/normal_scale = null
-shader_parameter/opacity = 0.9
 shader_parameter/texture_albedo = ExtResource("1_25n00")
+shader_parameter/point_size = 0.0
+shader_parameter/roughness = 0.0
+shader_parameter/metallic_texture_channel = Vector4(0, 0, 0, 0)
+shader_parameter/specular = 0.0
+shader_parameter/metallic = 1.08
+shader_parameter/normal_scale = 0.0
+shader_parameter/opacity = 0.9
 shader_parameter/color_gradient = ExtResource("27_yv8kr")
 shader_parameter/fresnel_gradient = SubResource("GradientTexture1D_wlba0")
 

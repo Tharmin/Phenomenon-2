@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://b43e8qggl4b5e"]
 
-[ext_resource type="Script" path="res://scenes/items/resources/light_toggle.gd" id="1_4517a"]
+[ext_resource type="Script" uid="uid://b5olggv3qc17f" path="res://scenes/items/resources/light_toggle.gd" id="1_4517a"]
 
 [node name="BaseConeLight" type="SpotLight3D"]
 script = ExtResource("1_4517a")

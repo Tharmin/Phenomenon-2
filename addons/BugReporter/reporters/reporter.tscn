@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dj67hsmvv1p38"]
 
-[ext_resource type="Script" path="res://addons/BugReporter/reporters/reporter.gd" id="1_7afts"]
+[ext_resource type="Script" uid="uid://dcuon3x0l2bmm" path="res://addons/BugReporter/reporters/reporter.gd" id="1_7afts"]
 [ext_resource type="PackedScene" uid="uid://dmn75l8pt7i8t" path="res://addons/BugReporter/webhook_builder/webhook_builder.tscn" id="2_hokb7"]
 
 [node name="Reporter" type="PanelContainer" node_paths=PackedStringArray("_message_text", "_mail_line_edit", "_options", "_screenshot_check", "_screenshot", "_analytics_button", "_send_button")]

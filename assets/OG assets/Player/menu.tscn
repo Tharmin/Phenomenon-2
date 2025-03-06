@@ -1,6 +1,6 @@
-[gd_scene load_steps=176 format=4 uid="uid://c530kutm0qtm3"]
+[gd_scene load_steps=171 format=4 uid="uid://c530kutm0qtm3"]
 
-[ext_resource type="Script" path="res://assets/OG assets/Player/omni_light_3d.gd" id="1_5caim"]
+[ext_resource type="Script" uid="uid://cigt51red53k1" path="res://assets/OG assets/Player/omni_light_3d.gd" id="1_5caim"]
 [ext_resource type="Texture2D" uid="uid://dcx85fmej47cp" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_2.png" id="1_iekoj"]
 [ext_resource type="Texture2D" uid="uid://bmjccirfegfdu" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_3.png" id="2_q4k1c"]
 [ext_resource type="Texture2D" uid="uid://ccvsyh1c2b4et" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_4.png" id="3_8hiom"]
@@ -20,10 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://xfoxxl5fb2jx" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_15.png" id="17_c8jgg"]
 [ext_resource type="Material" uid="uid://c0bnjd04ywvre" path="res://assets/OG assets/Player/Textures & Materials/Fox/Fox.material" id="18_no1c1"]
 [ext_resource type="Texture2D" uid="uid://vnbr5dcjjix" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_19.png" id="19_3nwg8"]
-[ext_resource type="Shader" path="res://scenes/player/Shader types/hatch.gdshader" id="20_12c4e"]
-[ext_resource type="Texture2D" uid="uid://crltmqdmreogb" path="res://assets/Shading.tres" id="21_1pq2q"]
-[ext_resource type="Texture2D" uid="uid://c4m2veenpvm0b" path="res://assets/Fresnel.tres" id="22_m3dr5"]
-[ext_resource type="Texture2D" uid="uid://dcxadfgh4gpkb" path="res://assets/OG assets/Player/Textures & Materials/Cat/BR_SRTHeadSimon.png" id="23_n8k7q"]
+[ext_resource type="Shader" uid="uid://ctsl6beeuxkm3" path="res://scenes/player/Shader types/hatch.gdshader" id="20_12c4e"]
 [ext_resource type="Texture2D" uid="uid://bkol81sinem2o" path="res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.png" id="24_fmpmj"]
 [ext_resource type="Material" uid="uid://bnkwxgkbbvho6" path="res://assets/OG assets/Player/Textures & Materials/Hazard/Hazard.material" id="25_cvryo"]
 [ext_resource type="Texture2D" uid="uid://bs372f6nuh2g7" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_21.png" id="26_w5qry"]
@@ -38,7 +35,7 @@
 [ext_resource type="Texture2D" uid="uid://dgrmjd2lue402" path="res://assets/OG assets/Player/KeithHopperWinterSuit2_1.png" id="35_80pgm"]
 [ext_resource type="Texture2D" uid="uid://qonfkqtqb0ty" path="res://assets/OG assets/Room/Red.png" id="36_6tag7"]
 [ext_resource type="Texture2D" uid="uid://cwwxacjxdkun6" path="res://assets/OG assets/Room/Blank.png" id="37_g02hs"]
-[ext_resource type="Script" path="res://assets/OG assets/Player/camera_3d.gd" id="37_u0ur8"]
+[ext_resource type="Script" uid="uid://d07eeplfp1s5" path="res://assets/OG assets/Player/camera_3d.gd" id="37_u0ur8"]
 [ext_resource type="Texture2D" uid="uid://443y4cdxa62o" path="res://assets/OG assets/Room/Floor.png" id="38_4o83y"]
 [ext_resource type="FontFile" uid="uid://gqtvtqfpr7gm" path="res://assets/fonts/BOYCOTT_.TTF" id="41_pkv1c"]
 
@@ -4943,17 +4940,8 @@ bind/51/pose = Transform3D(-1.99507e-09, -0.133963, -0.0194466, -0.135368, 9.743
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kutc3"]
 render_priority = 0
 shader = ExtResource("20_12c4e")
-shader_parameter/albedo = Color(1, 1, 1, 1)
-shader_parameter/point_size = null
-shader_parameter/roughness = null
-shader_parameter/metallic_texture_channel = null
-shader_parameter/specular = null
-shader_parameter/metallic = null
-shader_parameter/normal_scale = null
-shader_parameter/opacity = 1.0
-shader_parameter/texture_albedo = ExtResource("23_n8k7q")
-shader_parameter/color_gradient = ExtResource("21_1pq2q")
-shader_parameter/fresnel_gradient = ExtResource("22_m3dr5")
+shader_parameter/threshold1 = 0.5
+shader_parameter/threshold2 = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_svgrv"]
 resource_name = "Scene25"
@@ -6242,27 +6230,11 @@ bind/51/name = &"Foot_R"
 bind/51/bone = -1
 bind/51/pose = Transform3D(-2.75978e-08, -0.376167, -0.0546062, -0.380112, 2.75666e-06, -1.87978e-05, 1.89988e-05, 0.0546066, -0.37617, -0.0950847, -0.135439, -0.794208)
 
-[sub_resource type="Gradient" id="Gradient_gjyvn"]
-offsets = PackedFloat32Array(0.811688)
-colors = PackedColorArray(0, 0, 0, 1)
-
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_wlba0"]
-gradient = SubResource("Gradient_gjyvn")
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_clemq"]
 render_priority = 0
 shader = ExtResource("20_12c4e")
-shader_parameter/albedo = Color(1, 1, 1, 1)
-shader_parameter/point_size = null
-shader_parameter/roughness = null
-shader_parameter/metallic_texture_channel = null
-shader_parameter/specular = null
-shader_parameter/metallic = 1.08
-shader_parameter/normal_scale = null
-shader_parameter/opacity = 0.9
-shader_parameter/texture_albedo = ExtResource("34_qewgs")
-shader_parameter/color_gradient = ExtResource("21_1pq2q")
-shader_parameter/fresnel_gradient = SubResource("GradientTexture1D_wlba0")
+shader_parameter/threshold1 = 0.5
+shader_parameter/threshold2 = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gp7fd"]
 resource_name = "Scene3"
@@ -6821,7 +6793,7 @@ resource_name = "Idle"
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_7u4xy"]
 _data = {
-"Idle": SubResource("Animation_c6h4y")
+&"Idle": SubResource("Animation_c6h4y")
 }
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vdu2g"]

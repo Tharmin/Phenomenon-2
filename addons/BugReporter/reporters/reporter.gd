@@ -134,4 +134,3 @@ func _unique_user_id() -> String:
 
 func _get_game_name():
 	return _cfg.get_value("webhook", "game_name", "unnamed_game")
-

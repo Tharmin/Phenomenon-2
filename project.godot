@@ -16,7 +16,7 @@ run/main_scene="res://assets/dev/TestMap/testmap.tscn"
 config/use_hidden_project_data_directory=false
 config/use_custom_user_dir=true
 config/custom_user_dir_name="Phenomenon 2"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 boot_splash/bg_color=Color(0, 0, 0, 1)
 config/icon="res://icon.svg"
 
@@ -158,7 +158,8 @@ Reload={
 
 [physics]
 
-3d/physics_engine="JoltPhysics3D"
+2d/physics_engine="GodotPhysics2D"
+3d/physics_engine="Jolt Physics"
 
 [rendering]
 

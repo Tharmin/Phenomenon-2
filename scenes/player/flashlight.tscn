@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://du16be37nj4ap"]
 
-[ext_resource type="Script" path="res://scenes/player/BasicFlashlight.gd" id="1_32bvm"]
-[ext_resource type="Script" path="res://scenes/player/Glowstick.gd" id="2_r7fk7"]
+[ext_resource type="Script" uid="uid://bamru1rxvd0qa" path="res://scenes/player/BasicFlashlight.gd" id="1_32bvm"]
+[ext_resource type="Script" uid="uid://eai46xqf8v0c" path="res://scenes/player/Glowstick.gd" id="2_r7fk7"]
 
 [node name="Flashlight" type="Node3D"]
 

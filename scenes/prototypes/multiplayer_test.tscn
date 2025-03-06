@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://di5bytlx206y8"]
 
-[ext_resource type="Script" path="res://scenes/prototypes/multiplayer_setup.gd" id="1_kuffa"]
+[ext_resource type="Script" uid="uid://x6ykd0aq37mi" path="res://scenes/prototypes/multiplayer_setup.gd" id="1_kuffa"]
 [ext_resource type="Theme" uid="uid://bc06ccxcmsxla" path="res://assets/base.theme" id="2_0w1dg"]
 [ext_resource type="PackedScene" uid="uid://cp6elqppo7pv2" path="res://scenes/player/player.tscn" id="2_prpob"]
 [ext_resource type="PackedScene" uid="uid://c0dkbp4v5r6h2" path="res://assets/dev/TestMap/testmap.tscn" id="3_2y1hp"]
@@ -11,7 +11,7 @@ script = ExtResource("1_kuffa")
 PlayerScene = ExtResource("2_prpob")
 
 [node name="Player Spawner" type="MultiplayerSpawner" parent="."]
-_spawnable_scenes = PackedStringArray("res://scenes/player/player.tscn")
+_spawnable_scenes = PackedStringArray("uid://cp6elqppo7pv2")
 spawn_path = NodePath("../Players")
 
 [node name="Map Spawner" type="MultiplayerSpawner" parent="."]

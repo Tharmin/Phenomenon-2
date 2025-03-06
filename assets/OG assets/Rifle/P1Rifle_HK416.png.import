@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddkhpq5blejky"
+uid="uid://b2g5idyxwg2mr"
 path.s3tc="res://godot/imported/P1Rifle_HK416.png-db141598a274469fcde8b295fa813752.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "f8826f0be35e6b0e1aaf269ddbfe7e36"
 }
 
 [deps]

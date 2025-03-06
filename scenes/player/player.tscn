@@ -1,16 +1,16 @@
 [gd_scene load_steps=18 format=3 uid="uid://cp6elqppo7pv2"]
 
-[ext_resource type="Script" path="res://scenes/player/player.gd" id="1_67hrl"]
-[ext_resource type="Script" path="res://scenes/player/Look Script.gd" id="2_a81jl"]
-[ext_resource type="Script" path="res://scenes/player/InventoryManager.gd" id="2_dfnub"]
-[ext_resource type="Script" path="res://scenes/player/RayCast3D.gd" id="3_aou8u"]
-[ext_resource type="Shader" path="res://scenes/player/Shader types/Cell.gdshader" id="5_1m2cl"]
+[ext_resource type="Script" uid="uid://cfm6g63brtc2a" path="res://scenes/player/player.gd" id="1_67hrl"]
+[ext_resource type="Script" uid="uid://yioc14735fl0" path="res://scenes/player/Look Script.gd" id="2_a81jl"]
+[ext_resource type="Script" uid="uid://bw3stpp18d63m" path="res://scenes/player/InventoryManager.gd" id="2_dfnub"]
+[ext_resource type="Script" uid="uid://dxugw7d6t0jxm" path="res://scenes/player/RayCast3D.gd" id="3_aou8u"]
+[ext_resource type="Shader" uid="uid://dvdgkrovmyjry" path="res://scenes/player/Shader types/Cell.gdshader" id="5_1m2cl"]
 [ext_resource type="Texture2D" uid="uid://c6t0w2l7b1ip1" path="res://assets/crosshair.png" id="6_g8j0y"]
 [ext_resource type="Texture2D" uid="uid://crltmqdmreogb" path="res://assets/Shading.tres" id="6_i523m"]
-[ext_resource type="Script" path="res://scenes/player/gui.gd" id="7_c4gb4"]
+[ext_resource type="Script" uid="uid://mj0p2h4kis4g" path="res://scenes/player/gui.gd" id="7_c4gb4"]
 [ext_resource type="Theme" uid="uid://bc06ccxcmsxla" path="res://assets/base.theme" id="8_3wbr4"]
-[ext_resource type="Script" path="res://scenes/player/inputScript.gd" id="9_fitmg"]
-[ext_resource type="Script" path="res://scenes/player/Settings box.gd" id="10_iufpi"]
+[ext_resource type="Script" uid="uid://ng7k3gh68ba" path="res://scenes/player/inputScript.gd" id="9_fitmg"]
+[ext_resource type="Script" uid="uid://kyswjjeei77j" path="res://scenes/player/Settings box.gd" id="10_iufpi"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_x6tbt"]
 properties/0/path = NodePath(".:position")
@@ -36,11 +36,11 @@ render_priority = 0
 shader = ExtResource("5_1m2cl")
 shader_parameter/albedo = Color(0.800491, 0.800491, 0.800491, 1)
 shader_parameter/point_size = 0.0
-shader_parameter/roughness = null
-shader_parameter/metallic_texture_channel = null
-shader_parameter/specular = null
-shader_parameter/metallic = null
-shader_parameter/normal_scale = null
+shader_parameter/roughness = 0.0
+shader_parameter/metallic_texture_channel = Vector4(0, 0, 0, 0)
+shader_parameter/specular = 0.0
+shader_parameter/metallic = 0.0
+shader_parameter/normal_scale = 0.0
 shader_parameter/opacity = 1.0
 shader_parameter/color_gradient = ExtResource("6_i523m")
 shader_parameter/fresnel_gradient = SubResource("GradientTexture1D_i7icn")
